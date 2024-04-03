@@ -1,18 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import About from '../components/About';
-import Analytics from '../components/Analytics';
-import Canvas from '../components/Canvas';
-import LazyShow from '../components/LazyShow';
-import Title from '../components/Title';
-import Introduction from '../components/Introduction';
-import Customers from '../components/Customers';
-import Employees from '../components/Employees';
+import About from "../components/About";
+import LazyShow from "../components/LazyShow";
+import Title from "../components/Title";
+import Introduction from "../components/Introduction";
+import Customers from "../components/Customers";
+import Employees from "../components/Employees";
 
 const App = () => {
   return (
     <div className={`bg-background grid overflow-hidden`}>
-      <Title/>
+      <Title />
       <LazyShow>
         <>
           <Introduction />
@@ -20,7 +18,7 @@ const App = () => {
       </LazyShow>
       <LazyShow>
         <>
-          <Customers/>
+          <Customers />
         </>
       </LazyShow>
       <LazyShow>
@@ -31,7 +29,6 @@ const App = () => {
           <About />
         </>
       </LazyShow>
-      <Analytics />
     </div>
   );
 };
