@@ -8,7 +8,7 @@ const About = () => {
   const { socialMedia, sections } = about;
 
   return (
-    <div id="about" className="py-8 bg-backgroundDark">
+    <div id="about">
       <div className="flex flex-col items-center justify-center">
         <div>
           <img src={logo} alt={companyName} className="w-auto h-16" />
