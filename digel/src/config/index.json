@@ -39,8 +39,8 @@
         "img": "/assets/images/product1.jpg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
+        "title": "Project Experience",
+        "description": "Our team brings experience from a wide range of industries, including Oil & Gas, Maritime Operations, Aquaculture, Construction, Carbon Capture, Batteries, Shipyards, Electronics, Semiconductors, Agriculture, Wastewater Treatment, Fertilizer Production, and Seaweed Farming. This diverse industrial background empowers us to deliver innovative solutions across various sectors, leveraging our expertise to drive excellence and make a meaningful impact.",
         "img": "/assets/images/product2.jpg"
       }
     ]
@@ -58,9 +58,10 @@
       }
     ]
   },
-    "employees": {
-      "title": "Meet the team!",
-      "items": [{
+  "employees": {
+    "title": "Meet the team!",
+    "items": [
+      {
         "name": "Thomas Andersen",
         "role": "Software Engineer",
         "img": "/assets/images/thomas.jpg",
@@ -69,11 +70,23 @@
       {
         "name": "Axel Bech",
         "role": "Software Engineer",
-        "img": "/assets/images/thomas.jpg",
+        "img": "/assets/images/hackerman.jpg",
         "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
       },
       {
         "name": "Erlend Blomseth",
+        "role": "Software Engineer",
+        "img": "/assets/images/thomas.jpg",
+        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
+      },
+      {
+        "name": "Christoffer Lange",
+        "role": "Software Engineer",
+        "img": "/assets/images/thomas.jpg",
+        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
+      },
+      {
+        "name": "Bjørn-Erik Dale",
         "role": "Software Engineer",
         "img": "/assets/images/thomas.jpg",
         "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
@@ -83,30 +96,18 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "name": "E-mail",
+        "content": "post@digel.io"
       },
       {
-        "name": "Something",
+        "name": "Organization number",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "933 191 656"
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "github": "https://github.com",
+      "linkedin": "https://www.linkedin.com"
     }
   }
 }

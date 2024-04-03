@@ -1,6 +1,7 @@
-import React from 'react';
-import config from '../config/index.json';
-import Divider from './Divider';
+import React from "react";
+import config from "../config/index.json";
+import Divider from "./Divider";
+import Chip from "./Chip";
 
 const Employees = () => {
   const { employees } = config;
@@ -12,28 +13,28 @@ const Employees = () => {
           {employees.title}
         </h1>
         <Divider />
-        <div className={`flex flex-row justify-center gap-16`}>
-        {employees.items.map((item, index) => (
-            <div key={index} className='bg-white p-8 rounded-lg flex flex-col items-center gap-2'>
-            <div className="max-h-32 overflow-hidden">
-              <img 
-                src={item.img}
-                alt={item.name}
-                className="w-auto h-full rounded-full"
-              />
-            </div>
-            <h2 className='text-lg font-bold'>
-              {item.name}
-            </h2>
-            <div className="relative inline-block select-none rounded-lg bg-blue-500 py-1.5 px-3 font-sans text-xs font-bold uppercase text-white">
-              <span className="text-center">{item.role}</span>
-            </div>
-            <p className='text-sm'>
-              {item.description}
-            </p>
+        <div className="flex justify-center">
+          <div
+            className={`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8`}
+          >
+            {employees.items.map((item, index) => (
+              <div
+                key={index}
+                className="bg-white p-8 rounded-lg flex flex-col items-center gap-2"
+              >
+                <div className="max-h-32 overflow-hidden">
+                  <img
+                    src={item.img ?? ""}
+                    alt={item.name}
+                    className="w-auto h-full rounded-full"
+                  />
+                </div>
+                <h2 className="text-lg font-bold">{item.name}</h2>
+                <Chip value={item.role} />
+                <p className="text-sm">{item.description}</p>
+              </div>
+            ))}
           </div>
-          
-        ))}
         </div>
       </div>
     </section>
