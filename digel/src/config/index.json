@@ -49,12 +49,20 @@
     "title": "Our customers",
     "items": [
       {
+        "name": "Aker Solutions",
+        "img": "/assets/images/akerSolutions.png"
+      },
+      {
         "name": "Company A",
         "img": "/assets/images/companyA.png"
       },
       {
         "name": "Company B",
         "img": "/assets/images/companyB.png"
+      },
+      {
+        "name": "Company C",
+        "img": "/assets/images/companyA.png"
       }
     ]
   },

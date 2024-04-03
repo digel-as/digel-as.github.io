@@ -1,6 +1,6 @@
-import React from 'react';
-import config from '../config/index.json';
-import Divider from './Divider';
+import React from "react";
+import config from "../config/index.json";
+import Divider from "./Divider";
 
 const Customers = () => {
   const { customers } = config;
@@ -12,16 +12,16 @@ const Customers = () => {
           {customers.title}
         </h1>
         <Divider />
-        <div className={`flex flex-row justify-center`}>
-        {customers.items.map((item, index) => (
-            <div key={index}>
-                <img 
-                    src={item.img}
-                    alt={item.name}
-                    className="filter brightness-0 invert max-h-32 w-auto"
-                />
+        <div className={`flex flex-row flex-wrap justify-center`}>
+          {customers.items.map((item, index) => (
+            <div key={index} className="h-32 flex items-center justify-center">
+              <img
+                src={item.img}
+                alt={item.name}
+                className="filter brightness-0 invert max-h-full w-auto object-cover"
+              />
             </div>
-        ))}
+          ))}
         </div>
       </div>
     </section>
