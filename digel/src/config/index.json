@@ -72,31 +72,31 @@
       {
         "name": "Thomas Andersen",
         "role": "Software Engineer",
-        "img": "/assets/images/thomas.jpg",
+        "img": "/assets/images/thomas.png",
         "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
       },
       {
         "name": "Axel Bech",
         "role": "Software Engineer",
-        "img": "/assets/images/hackerman.jpg",
+        "img": "/assets/images/axel.png",
         "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
       },
       {
         "name": "Erlend Blomseth",
         "role": "Software Engineer",
-        "img": "/assets/images/thomas.jpg",
+        "img": "/assets/images/erlend.png",
         "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
       },
       {
         "name": "Christoffer Lange",
         "role": "Software Engineer",
-        "img": "/assets/images/thomas.jpg",
+        "img": "/assets/images/christoffer.png",
         "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
       },
       {
-        "name": "Bjørn-Erik Dale",
+        "name": "Victor Iversen",
         "role": "Software Engineer",
-        "img": "/assets/images/thomas.jpg",
+        "img": "/assets/images/victor.png",
         "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
       }
     ]
