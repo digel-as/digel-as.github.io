@@ -8,9 +8,7 @@
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",
     "build-prod": "run-s clean build export",
-    "clean": "rimraf .next out",
-    "lint": "next lint",
-    "build-types": "tsc --noEmit --pretty"
+    "clean": "rimraf .next out"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
@@ -32,10 +30,8 @@
     "@typescript-eslint/parser": "^4.32.0",
     "autoprefixer": "^10.3.7",
     "cross-env": "^7.0.3",
-    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-airbnb-typescript": "^14.0.1",
-    "eslint-config-next": "^12.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
