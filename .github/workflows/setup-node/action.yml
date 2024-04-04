@@ -13,11 +13,11 @@ runs:
       uses: actions/cache@v3
       with:
         path: digel/node_modules
-        key: node-modules-${{ hashFiles('package-lock.json') }}
+        key: node-modules-${{ hashFiles('yarn.lock') }}
 
     - name: Install dependencies 🔧
       shell: bash
       if: steps.cache_dependencies.outputs.cache-hit != 'true'
       run: |
-        cd digel 
-        npm ci
+        cd digel
+        yarn install --frozen-lockfile
