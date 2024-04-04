@@ -20,9 +20,9 @@ const Employees = () => {
             {employees.items.map((item, index) => (
               <div
                 key={index}
-                className="bg-white p-8 rounded-lg flex flex-col items-center gap-2"
+                className="bg-white p-8 rounded-lg flex flex-col items-center justify-center gap-2"
               >
-                <div className="max-h-32 overflow-hidden">
+                <div className="max-h-32 flex flex-col items-center justify-center">
                   <img
                     src={item.img ?? ""}
                     alt={item.name}

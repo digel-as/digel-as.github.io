@@ -14,8 +14,8 @@ const About = () => {
           <img src={logo} alt={companyName} className="w-auto h-16" />
         </div>
         <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
-          {sections.map((section, index) => (
-            <div key={index}>
+          {sections.map((section) => (
+            <div key={section.name}>
               <h1 className="text-primary font-bold ">{section.name}</h1>
               <p className="text-white">{section.content}</p>
             </div>
