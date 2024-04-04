@@ -9,11 +9,11 @@
 }
 
 a {
-  @apply text-red-700;
+  @apply text-white;
 }
 
 a:hover {
-  @apply border-b-2 border-red-700;
+  @apply border-b-2 text-white;
 }
 
 .content p {
