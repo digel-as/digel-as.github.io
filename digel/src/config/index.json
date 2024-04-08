@@ -34,13 +34,19 @@
     "title": "About us",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
+        "title": "Hello!",
+        "content": [
+          "Welcome to Digel, a fresh face in the realm of technical consultancy! We're a vibrant startup passionate about leveraging technology to create innovative solutions. Our core lies in a team of exceptional engineers, with roots deeply planted in cybernetics and industrial IT.",
+          "What sets us apart? A comprehensive spectrum of knowledge spanning automation, Operational Technology (OT), Information Technology (IT), and beyond. Whether you're navigating the intricacies of embedded systems, control/automation systems, cloud/backend development, or crafting user-friendly frontends, we're here to guide you. Our proficiency also extends to the art of managing vast arrays of timeseries data, a testament to our extensive industrial experience. At Digel, we're more than just consultants; we're problem solvers dedicated to transforming challenges into opportunities.",
+          "Our aim? To empower your business with tailored technical solutions that drive success. Whether you're looking to innovate, optimize, or simply understand the potential of technology in your operations, we're here to help. Embark on a journey of discovery and innovation with us. Let's solve the unsolvable, together."
+        ],
         "img": "/assets/images/product1.jpg"
       },
       {
         "title": "Project Experience",
-        "description": "Our team brings experience from a wide range of industries, including Oil & Gas, Maritime Operations, Aquaculture, Construction, Carbon Capture, Batteries, Shipyards, Electronics, Semiconductors, Agriculture, Wastewater Treatment, Fertilizer Production, and Seaweed Farming. This diverse industrial background empowers us to deliver innovative solutions across various sectors, leveraging our expertise to drive excellence and make a meaningful impact.",
+        "content": [
+          "Our team brings experience from a wide range of industries, including Oil & Gas, Maritime Operations, Aquaculture, Construction, Carbon Capture, Batteries, Shipyards, Electronics, Semiconductors, Agriculture, Wastewater Treatment, Fertilizer Production, and Seaweed Farming. This diverse industrial background empowers us to deliver innovative solutions across various sectors, leveraging our expertise to drive excellence and make a meaningful impact."
+        ],
         "img": "/assets/images/product2.jpg"
       }
     ]
@@ -50,19 +56,8 @@
     "items": [
       {
         "name": "Aker Solutions",
-        "img": "/assets/images/akerSolutions.png"
-      },
-      {
-        "name": "Company A",
-        "img": "/assets/images/companyA.png"
-      },
-      {
-        "name": "Company B",
-        "img": "/assets/images/companyB.png"
-      },
-      {
-        "name": "Company C",
-        "img": "/assets/images/companyA.png"
+        "img": "/assets/images/akerSolutions.png",
+        "href": "https://www.akersolutions.com/"
       }
     ]
   },
@@ -70,34 +65,34 @@
     "title": "Meet the team!",
     "items": [
       {
-        "name": "Thomas Andersen",
-        "role": "Software Engineer",
-        "img": "/assets/images/thomas.png",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
-      },
-      {
-        "name": "Axel Bech",
-        "role": "Software Engineer",
-        "img": "/assets/images/axel.png",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
-      },
-      {
-        "name": "Erlend Blomseth",
-        "role": "Software Engineer",
-        "img": "/assets/images/erlend.png",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
-      },
-      {
         "name": "Christoffer Lange",
-        "role": "Software Engineer",
+        "role": "Project Manager",
         "img": "/assets/images/christoffer.png",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
+        "description": "Manager driving effective digital transformations through industry insight and software expertise."
       },
       {
         "name": "Victor Iversen",
-        "role": "Software Engineer",
+        "role": "Automation Engineer",
         "img": "/assets/images/victor.png",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!"
+        "description": "Automation and edge computing guru, making industrial systems efficient."
+      },
+      {
+        "name": "Thomas Andersen",
+        "role": "Software Engineer",
+        "img": "/assets/images/thomas.png",
+        "description": "Embedded systems and cloud specialist, known for lightning-fast development."
+      },
+      {
+        "name": "Axel Bech",
+        "role": "Data Engineer",
+        "img": "/assets/images/axel.png",
+        "description": "Data engineer specializing in industrial applications."
+      },
+      {
+        "name": "Erlend Blomseth",
+        "role": "Software Architect",
+        "img": "/assets/images/erlend.png",
+        "description": "Software Engineer skilled in architecture and problem-solving"
       }
     ]
   },
