@@ -24,11 +24,19 @@ const Introduction = () => {
                 <h3 className="text-3xl font-bold leading-none mb-3 text-tertiary">
                   {item.title}
                 </h3>
-                <p className="text-white mb-8">{item.description}</p>
+                {item.content.map((paragraph, index) => (
+                  <p className="text-white mb-8" key={index}>
+                    {paragraph}
+                  </p>
+                ))}
               </div>
             </div>
             <div className="w-full sm:w-1/2 p-6 flex justify-center items-center">
-              <img className="h-full" src={item.img} alt={item.title} />
+              <img
+                className="h-auto max-w-full object-contain"
+                src={item.img}
+                alt={item.title}
+              />
             </div>
           </div>
         ))}
