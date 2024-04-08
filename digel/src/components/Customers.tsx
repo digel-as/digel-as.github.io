@@ -14,13 +14,17 @@ const Customers = () => {
         <Divider />
         <div className={`flex flex-row flex-wrap justify-center`}>
           {customers.items.map((item, index) => (
-            <div key={index} className="h-32 flex items-center justify-center">
+            <a
+              key={index}
+              className="h-32 flex items-center justify-center"
+              href={item.href}
+            >
               <img
                 src={item.img}
                 alt={item.name}
                 className="filter brightness-0 invert max-h-full w-auto object-cover"
               />
-            </div>
+            </a>
           ))}
         </div>
       </div>
