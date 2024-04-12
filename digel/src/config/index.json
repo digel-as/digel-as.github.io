@@ -93,6 +93,12 @@
         "role": "Software Architect",
         "img": "/assets/images/erlend.png",
         "description": "Software Engineer skilled in architecture and problem-solving"
+      },
+      {
+        "name": "Bjørn-Erik Dale",
+        "role": "Chairman",
+        "img": "/assets/images/bjorn-erik.png",
+        "description": "Chairman of the board."
       }
     ]
   },
