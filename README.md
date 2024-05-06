@@ -11,6 +11,8 @@ Pre-requisites:
 - Installed node (v16.20.2) - Recommend to use nvm for managing node versions
 - Installed yarn (v1.22.22)
 
+Start dev server:
+
 1. `cd digel`
 2. `npx yarn`
 3. `npx yarn dev`
