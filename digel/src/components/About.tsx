@@ -10,11 +10,11 @@ const About = () => {
 
   return (
     <div id="about">
-      <div className="flex flex-col items-center justify-around m-8 h-96">
+      <div className="flex flex-col items-center justify-between m-8 h-64">
         <div>
           <img src={logo} alt={companyName} className="w-auto h-16" />
         </div>
-        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
+        <div className="flex flex-wrap sm:gap-10 gap-4 items-center justify-center mt-4 h-12">
           {sections.map((section) => (
             <div key={section.name}>
               <h1 className="text-primary font-bold ">{section.name}</h1>
