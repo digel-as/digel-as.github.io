@@ -4,8 +4,8 @@ interface Props {
 
 const Chip = (props: Props) => {
   return (
-    <div className="relative inline-block select-none rounded-lg bg-accent py-1.5 px-3 font-sans text-xs font-bold uppercase text-white">
-      <span className="text-center">{props.value}</span>
+    <div className="rounded-lg bg-accent py-1.5 px-3 font-sans text-xs font-bold uppercase text-white max-w-max">
+      <span>{props.value}</span>
     </div>
   );
 };

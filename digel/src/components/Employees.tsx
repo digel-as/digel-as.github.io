@@ -13,23 +13,25 @@ const Employees = () => {
         </h1>
         <div className="flex justify-center">
           <div
-            className={`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8`}
+            className={`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2`}
           >
             {employees.items.map((item, index) => (
               <div
                 key={index}
-                className="bg-white max-w-[300px] p-8 rounded-lg flex flex-col items-center justify-center gap-2"
+                className="bg-white max-w-[500px] p-8 rounded-lg flex gap-3"
               >
-                <div className="max-h-32 flex flex-col items-center justify-center">
-                  <img
-                    src={item.img ?? ""}
-                    alt={item.name}
-                    className="w-auto h-full rounded-full"
-                  />
+                <img
+                  src={item.img ?? ""}
+                  alt={item.name}
+                  className="object-contain rounded-lg max-h-32"
+                />
+                <div className="flex flex-col justify-around">
+                  <div>
+                    <h2 className="text-lg font-bold">{item.name}</h2>
+                    <p className="text-sm">{item.description}</p>
+                  </div>
+                  <Chip value={item.role} />
                 </div>
-                <h2 className="text-lg font-bold">{item.name}</h2>
-                <Chip value={item.role} />
-                <p className="text-sm">{item.description}</p>
               </div>
             ))}
           </div>
