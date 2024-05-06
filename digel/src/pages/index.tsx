@@ -1,7 +1,6 @@
 import React from "react";
 
 import About from "../components/About";
-import LazyShow from "../components/LazyShow";
 import Title from "../components/Title";
 import Introduction from "../components/Introduction";
 import Customers from "../components/Customers";
@@ -12,22 +11,16 @@ const App = () => {
     <div className={`bg-background grid overflow-hidden`}>
       <Title />
       <div className="py-8 bg-backgroundMedium">
-        <>
-          <Introduction />
-        </>
+        <Introduction />
       </div>
       <div className="py-8 bg-white">
         <Employees />
       </div>
       <div className="py-8 bg-backgroundMedium">
-        <>
-          <Customers />
-        </>
+        <Customers />
       </div>
       <div className="py-8 bg-backgroundDark">
-        <>
-          <About />
-        </>
+        <About />
       </div>
     </div>
   );
