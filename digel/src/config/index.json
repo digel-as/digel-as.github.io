@@ -52,12 +52,17 @@
     ]
   },
   "customers": {
-    "title": "Our customers",
+    "title": "Our customers and partners",
     "items": [
       {
         "name": "Aker Solutions",
         "img": "/assets/images/akerSolutions.png",
         "href": "https://www.akersolutions.com/"
+      },
+      {
+        "name": "NES Advantage Solutions",
+        "img": "/assets/images/NES.png",
+        "href": "https://www.nesfircroft.com/managed-solutions"
       }
     ]
   },
