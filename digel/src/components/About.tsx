@@ -1,6 +1,7 @@
 import React from "react";
 
 import config from "../config/index.json";
+import { ChevronRightIcon } from "@heroicons/react/outline";
 
 const About = () => {
   const { company, about } = config;
@@ -20,6 +21,13 @@ const About = () => {
               <p className="text-white">{section.content}</p>
             </div>
           ))}
+          <a
+            className="flex items-center text-primary font-bold"
+            href="https://www.arbeidstilsynet.no/bemanningsvirksomhet/933191656/?q=digel"
+          >
+            <h1 className="mr-2">Approved Staffing Agency</h1>
+            <ChevronRightIcon className="w-6 h-6" />
+          </a>
         </div>
         <div className="flex items-center gap-x-8 mt-6 h-8">
           <a
