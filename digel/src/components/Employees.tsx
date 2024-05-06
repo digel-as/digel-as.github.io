@@ -9,7 +9,7 @@ const Employees = () => {
   return (
     <section id="employees">
       <div className="container max-w-5xl mx-auto m-8">
-        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-backgroundMedium">
+        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-primary">
           {employees.title}
         </h1>
         <div className="flex justify-center">
@@ -18,7 +18,7 @@ const Employees = () => {
           >
             {employees.items.map((item, index) => (
               <LazyShow key={index}>
-                <div className="bg-white max-w-[500px] p-8 rounded-lg flex gap-3">
+                <div className="max-w-[500px] p-8 rounded-lg flex gap-3 text-primary">
                   <img
                     src={item.img ?? ""}
                     alt={item.name}

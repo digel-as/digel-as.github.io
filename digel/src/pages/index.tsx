@@ -13,7 +13,7 @@ const App = () => {
       <div className="py-8 bg-backgroundMedium">
         <Introduction />
       </div>
-      <div className="py-8 bg-white">
+      <div className="py-8 bg-backgroundDark">
         <Employees />
       </div>
       <div className="py-8 bg-backgroundMedium">
