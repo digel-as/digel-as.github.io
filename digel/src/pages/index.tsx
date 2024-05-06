@@ -12,30 +12,22 @@ const App = () => {
     <div className={`bg-background grid overflow-hidden`}>
       <Title />
       <div className="py-8 bg-backgroundMedium">
-        <LazyShow>
-          <>
-            <Introduction />
-          </>
-        </LazyShow>
+        <>
+          <Introduction />
+        </>
       </div>
       <div className="py-8 bg-white">
-        <LazyShow>
-          <Employees />
-        </LazyShow>
+        <Employees />
       </div>
       <div className="py-8 bg-backgroundMedium">
-        <LazyShow>
-          <>
-            <Customers />
-          </>
-        </LazyShow>
+        <>
+          <Customers />
+        </>
       </div>
       <div className="py-8 bg-backgroundDark">
-        <LazyShow>
-          <>
-            <About />
-          </>
-        </LazyShow>
+        <>
+          <About />
+        </>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import config from "../config/index.json";
 import Chip from "./Chip";
+import LazyShow from "./LazyShow";
 
 const Employees = () => {
   const { employees } = config;
@@ -16,23 +17,22 @@ const Employees = () => {
             className={`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2`}
           >
             {employees.items.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white max-w-[500px] p-8 rounded-lg flex gap-3"
-              >
-                <img
-                  src={item.img ?? ""}
-                  alt={item.name}
-                  className="object-contain rounded-lg max-h-32"
-                />
-                <div className="flex flex-col justify-around">
-                  <div>
-                    <h2 className="text-lg font-bold">{item.name}</h2>
-                    <p className="text-sm">{item.description}</p>
+              <LazyShow key={index}>
+                <div className="bg-white max-w-[500px] p-8 rounded-lg flex gap-3">
+                  <img
+                    src={item.img ?? ""}
+                    alt={item.name}
+                    className="object-contain rounded-lg max-h-32"
+                  />
+                  <div className="flex flex-col justify-around">
+                    <div>
+                      <h2 className="text-lg font-bold">{item.name}</h2>
+                      <p className="text-sm">{item.description}</p>
+                    </div>
+                    <Chip value={item.role} />
                   </div>
-                  <Chip value={item.role} />
                 </div>
-              </div>
+              </LazyShow>
             ))}
           </div>
         </div>
