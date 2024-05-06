@@ -18,16 +18,16 @@ const App = () => {
           </>
         </LazyShow>
       </div>
-      <div className="py-8 bg-backgroundDark">
+      <div className="py-8 bg-white">
         <LazyShow>
-          <>
-            <Customers />
-          </>
+          <Employees />
         </LazyShow>
       </div>
       <div className="py-8 bg-backgroundMedium">
         <LazyShow>
-          <Employees />
+          <>
+            <Customers />
+          </>
         </LazyShow>
       </div>
       <div className="py-8 bg-backgroundDark">

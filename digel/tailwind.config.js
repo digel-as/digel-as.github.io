@@ -17,13 +17,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#427af2",
+        primary: "#FFFFF6",
         secondary: "#484F58",
         tertiary: "#dbcac4",
         border: "#1a2e35",
         backgroundDark: "#020A1D",
-        backgroundMedium: "#021539",
+        backgroundMedium: "#071431",
+        backgroundLight: "#FFFFF6",
         background: "#c0d7fd",
+        accent: "#427af2",
       },
       animation: {
         vote: "vote 1s ease-in-out",

@@ -1,7 +1,7 @@
 {
   "company": {
     "name": "Digel",
-    "logo": "/assets/images/logo.png"
+    "logo": "/assets/images/logo-light.png"
   },
   "navigation": [
     {
@@ -28,7 +28,7 @@
   },
   "title": {
     "slogan": "Delivering Industrial Digitalization with Cybernetics Expertise",
-    "img": "/assets/images/logo.png"
+    "img": "/assets/images/logo-light.png"
   },
   "introduction": {
     "title": "About us",

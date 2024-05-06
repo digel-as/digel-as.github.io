@@ -1,6 +1,5 @@
 import React from "react";
 import config from "../config/index.json";
-import Divider from "./Divider";
 import Chip from "./Chip";
 
 const Employees = () => {
@@ -9,10 +8,9 @@ const Employees = () => {
   return (
     <section id="employees">
       <div className="container max-w-5xl mx-auto m-8">
-        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-tertiary">
+        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-backgroundMedium">
           {employees.title}
         </h1>
-        <Divider />
         <div className="flex justify-center">
           <div
             className={`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8`}
