@@ -93,7 +93,7 @@
     "items": [
       {
         "name": "Christoffer Lange",
-        "role": "Project Manager",
+        "role": "CEO & Project Manager",
         "img": "/assets/images/christoffer.png",
         "description": "Manager driving effective digital transformations through industry insight and software expertise."
       },
@@ -111,7 +111,7 @@
       },
       {
         "name": "Axel Bech",
-        "role": "Data Engineer",
+        "role": "Software Engineer",
         "img": "/assets/images/axel.png",
         "description": "Data engineer specializing in industrial applications."
       },
