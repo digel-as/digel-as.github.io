@@ -5,6 +5,24 @@ import Divider from "./Divider";
 const Introduction = () => {
   const { introduction } = config;
 
+  // Function to parse content and mark certain words as bold
+  const parseContent = (content: string[], boldWords: string[]) => {
+    return content.map((paragraph, index) => {
+      const words = paragraph.split(" ");
+      return (
+        <p className="text-white mb-8" key={index}>
+          {words.map((word, i) => {
+            const isBold = boldWords.includes(word.replace(/[.,!?]/g, ""));
+            return isBold ? (
+              <b key={i}>{word} </b>
+            ) : (
+              <span key={i}>{word} </span>
+            );
+          })}
+        </p>
+      );
+    });
+  };
   return (
     <section id="introduction">
       <div className="container max-w-5xl mx-auto m-8">
@@ -24,11 +42,7 @@ const Introduction = () => {
                 <h3 className="text-3xl font-bold leading-none mb-3 text-tertiary">
                   {item.title}
                 </h3>
-                {item.content.map((paragraph, index) => (
-                  <p className="text-white mb-8" key={index}>
-                    {paragraph}
-                  </p>
-                ))}
+                {parseContent(item.content, item?.bold ?? [])}
               </div>
             </div>
             <div className="w-full sm:w-1/2 p-6 flex justify-center items-center">

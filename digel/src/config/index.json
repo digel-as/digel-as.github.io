@@ -47,6 +47,28 @@
         "content": [
           "Our team brings experience from a wide range of industries, including Oil & Gas, Maritime Operations, Aquaculture, Construction, Carbon Capture, Batteries, Shipyards, Electronics, Semiconductors, Agriculture, Wastewater Treatment, Fertilizer Production, and Seaweed Farming. This diverse industrial background empowers us to deliver innovative solutions across various sectors, leveraging our expertise to drive excellence and make a meaningful impact."
         ],
+        "bold": [
+          "Oil",
+          "&",
+          "Gas",
+          "Maritime",
+          "Operations",
+          "Aquaculture",
+          "Construction",
+          "Carbon",
+          "Capture",
+          "Batteries",
+          "Shipyards",
+          "Electronics",
+          "Semiconductors",
+          "Agriculture",
+          "Wastewater",
+          "Treatment",
+          "Fertilizer",
+          "Production",
+          "Seaweed",
+          "Farming"
+        ],
         "img": "/assets/images/product2.jpg"
       }
     ]
