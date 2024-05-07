@@ -27,9 +27,15 @@ const Employees = () => {
                   <div className="flex flex-col justify-around">
                     <div>
                       <h2 className="text-lg font-bold">{item.name}</h2>
+                      <h6 className="text-sm font-semibold">{item.role}</h6>
                       <p className="text-sm">{item.description}</p>
                     </div>
-                    <Chip value={item.role} />
+                    {/*<Chip value={item.role} />*/}
+                    <div className="flex gap-1 flex-wrap">
+                      {item.keywords.map((keyword) => (
+                        <Chip value={keyword} />
+                      ))}
+                    </div>
                   </div>
                 </div>
               </LazyShow>
