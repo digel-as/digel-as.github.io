@@ -4,6 +4,7 @@ import config from "../../config/index.json";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 
 const BlogPostPage: React.FC = () => {
   const router = useRouter();
@@ -39,6 +40,13 @@ const BlogPostPage: React.FC = () => {
             <p className="mt-2">{section.content}</p>
           </div>
         ))}
+        <div className="mt-8 text-let">
+          <Link href="/">
+            <a className="text-lg text-accent hover:text-blue-700">
+              Back to Main Page
+            </a>
+          </Link>
+        </div>
       </div>
     </article>
   );
