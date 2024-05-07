@@ -41,7 +41,7 @@ const BlogPostPage: React.FC = () => {
           </div>
         ))}
         <div className="mt-8 text-let">
-          <Link href="/">
+          <Link href="/#latest-news">
             <a className="text-lg text-accent hover:text-blue-700">
               Back to Main Page
             </a>
