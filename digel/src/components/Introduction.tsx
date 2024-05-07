@@ -28,32 +28,16 @@ const Introduction = () => {
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-primary">
           {introduction.title}
         </h1>
-        {introduction.items.map((item, index) => (
-          <div
-            key={index}
-            className={`flex flex-wrap ${
-              index % 2 === 0 ? "flex-row" : "flex-row-reverse"
-            }`}
-          >
-            <div className="w-full sm:w-1/2 p-6">
-              <div className="align-middle">
-                <h3 className="text-3xl font-bold leading-none mb-3 text-primary">
-                  {item.title}
-                </h3>
-                {parseContent(item?.content ?? [], item?.bold ?? [])}
-              </div>
+        <div className="flex flex-col md:flex-row p-4">
+          {introduction.items.map((item, index) => (
+            <div key={index} className={`p-3`}>
+              <h3 className="text-3xl font-bold leading-none mb-3 text-primary">
+                {item.title}
+              </h3>
+              {parseContent(item?.content ?? [], item?.bold ?? [])}
             </div>
-            {item?.img && (
-              <div className="w-full sm:w-1/2 p-6 flex justify-center items-center">
-                <img
-                  className="h-auto max-w-full object-contain"
-                  src={item.img}
-                  alt={item.title}
-                />
-              </div>
-            )}
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
