@@ -27,6 +27,11 @@ module.exports = {
         background: "#c0d7fd",
         accent: "#427af2",
       },
+      height: {
+        "screen-25": "25vh",
+        "screen-50": "50vh",
+        "screen-75": "75vh",
+      },
       animation: {
         vote: "vote 1s ease-in-out",
       },

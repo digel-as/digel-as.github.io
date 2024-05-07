@@ -5,6 +5,7 @@ import Title from "../components/Title";
 import Introduction from "../components/Introduction";
 import Customers from "../components/Customers";
 import Employees from "../components/Employees";
+import Blog from "../components/Blog";
 
 const App = () => {
   return (
@@ -17,9 +18,12 @@ const App = () => {
         <Employees />
       </div>
       <div className="py-8 bg-backgroundMedium">
-        <Customers />
+        <Blog />
       </div>
       <div className="py-8 bg-backgroundDark">
+        <Customers />
+      </div>
+      <div className="py-8 bg-backgroundMedium">
         <About />
       </div>
     </div>
