@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import config from "../config/index.json";
-import Image from "next/image";
 import Link from "next/link";
 
 interface BlogSection {
@@ -39,11 +38,10 @@ const Blog: React.FC = () => {
           <Link key={index} href={`/blog/${index}`}>
             <a className="block w-full sm:w-1/2 max-w-lg">
               <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
-                <Image
+                <img
                   src={post.img}
                   alt={post.title}
-                  layout="fill"
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                 />
               </div>
               <h2 className="text-2xl font-bold">{post.title}</h2>

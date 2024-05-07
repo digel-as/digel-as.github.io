@@ -2,7 +2,6 @@
 import React from "react";
 import config from "../../config/index.json";
 import { useRouter } from "next/router";
-import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -23,13 +22,11 @@ const BlogPostPage: React.FC = () => {
         <title>{post.title}</title>
         <meta name="description" content={`${post.title}`} />
       </Head>
-      <div className="relative w-full h-screen-50">
-        <Image
+      <div className="relative w-full" style={{ height: "40vh" }}>
+        <img
           src={post.img}
           alt={post.title}
-          layout="fill"
-          priority
-          objectFit="cover"
+          style={{ objectFit: "cover", width: "100%", height: "100%" }}
         />
       </div>
       <div className="px-8 sm:px-12 md:px-16 lg:px-32 xl:px-64 py-16">
