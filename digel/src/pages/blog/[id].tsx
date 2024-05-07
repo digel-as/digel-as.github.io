@@ -20,7 +20,10 @@ const BlogPostPage: React.FC = () => {
     <article className="bg-backgroundMedium text-primary min-h-screen">
       <Head>
         <title>{post.title}</title>
-        <meta name="description" content={`${post.title}`} />
+        <meta
+          name="description"
+          content={`${post.sections.map((section) => section.content)}`}
+        />
       </Head>
       <div className="relative w-full" style={{ height: "40vh" }}>
         <img
