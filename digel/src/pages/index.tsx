@@ -8,7 +8,7 @@ import Employees from "../components/Employees";
 
 const App = () => {
   return (
-    <div className={`bg-background grid overflow-hidden`}>
+    <div className={`bg-backgroundDark grid overflow-hidden`}>
       <Title />
       <div className="py-8 bg-backgroundMedium">
         <Introduction />
