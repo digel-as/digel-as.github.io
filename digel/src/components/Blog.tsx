@@ -34,10 +34,10 @@ const Blog: React.FC = () => {
       <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-primary">
         {blog.title}
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
+      <div className="flex flex-wrap justify-center items-stretch gap-8 p-4">
         {blog.posts.slice(0, visiblePosts).map((post, index) => (
           <Link key={index} href={`/blog/${index}`}>
-            <a className="block">
+            <a className="block w-full sm:w-1/2 max-w-lg">
               <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
                 <Image
                   src={post.img}
