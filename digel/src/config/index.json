@@ -156,41 +156,15 @@
         "sections": [
           {
             "title": "",
-            "content": "We are thrilled to announce the launch of Digel, a forward-thinking company driven by a passionate team of engineers with extensive backgrounds in cybernetics, robotics, and industrial IT. At Digel, innovation isn't just a buzzword; it's the cornerstone of everything we do."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan quis leo eu eleifend. Fusce semper ipsum et vehicula sodales. Curabitur ut elementum risus, placerat mollis lacus. Nulla in dolor tortor. Suspendisse potenti. Aliquam sagittis, sapien at porttitor vulputate, lectus eros ornare neque, vel pharetra enim lacus vitae ante. Aliquam leo tortor, mollis quis nisl in, feugiat fringilla libero. Fusce commodo enim id orci egestas, vitae congue neque sollicitudin. Duis tempus nunc ipsum, a tempus dolor posuere sit amet. Ut id est in dui venenatis suscipit sed at turpis. Sed et accumsan eros. Aliquam tincidunt faucibus purus sed varius. Aliquam sed orci nulla. Duis quis neque a est bibendum pharetra quis a nunc."
           },
           {
-            "title": "Who We Are",
-            "content": "Digel is made up of a diverse team of engineers who bring a wealth of expertise and enthusiasm to the table. Our founders and team members have profound experience in the fields of cybernetics and robotics, two areas that are pivotal in the modern technological landscape. This expertise is complemented by a robust understanding of industrial IT, allowing us to create solutions that are not only innovative but also integral to the industries we serve."
-          }
-        ]
-      },
-      {
-        "title": "Automating design of 3D-models for Aker Solutions",
-        "img": "/assets/images/product2.jpg",
-        "published": "Apr 3, 2024",
-        "sections": [
-          {
-            "title": "",
-            "content": "We are thrilled to announce the launch of Digel, a forward-thinking company driven by a passionate team of engineers with extensive backgrounds in cybernetics, robotics, and industrial IT. At Digel, innovation isn't just a buzzword; it's the cornerstone of everything we do."
+            "title": "Project Goals",
+            "content": "Pellentesque laoreet auctor nibh non fringilla. Curabitur eget orci molestie, mattis ligula quis, viverra enim. Ut gravida, lacus nec fringilla dignissim, metus sem convallis justo, sit amet vestibulum nibh ligula ut erat. Donec ornare libero nisi, molestie lobortis massa euismod sed. Sed a scelerisque ligula, et vestibulum ex. Morbi scelerisque cursus libero vitae varius. In cursus lorem sit amet elit iaculis, ut pharetra nisl pellentesque. Vestibulum id posuere turpis, eu sagittis justo."
           },
           {
-            "title": "Who We Are",
-            "content": "Digel is made up of a diverse team of engineers who bring a wealth of expertise and enthusiasm to the table. Our founders and team members have profound experience in the fields of cybernetics and robotics, two areas that are pivotal in the modern technological landscape. This expertise is complemented by a robust understanding of industrial IT, allowing us to create solutions that are not only innovative but also integral to the industries we serve."
-          }
-        ]
-      },
-      {
-        "title": "Automating design of 3D-models for Aker Solutions",
-        "img": "/assets/images/product2.jpg",
-        "published": "Apr 3, 2024",
-        "sections": [
-          {
-            "title": "",
-            "content": "We are thrilled to announce the launch of Digel, a forward-thinking company driven by a passionate team of engineers with extensive backgrounds in cybernetics, robotics, and industrial IT. At Digel, innovation isn't just a buzzword; it's the cornerstone of everything we do."
-          },
-          {
-            "title": "Who We Are",
-            "content": "Digel is made up of a diverse team of engineers who bring a wealth of expertise and enthusiasm to the table. Our founders and team members have profound experience in the fields of cybernetics and robotics, two areas that are pivotal in the modern technological landscape. This expertise is complemented by a robust understanding of industrial IT, allowing us to create solutions that are not only innovative but also integral to the industries we serve."
+            "title": "Tools we use",
+            "content": "Nam consectetur, ligula sed lobortis faucibus, arcu sapien scelerisque lacus, id rhoncus ipsum neque vel nisi. Praesent feugiat blandit vehicula. Morbi bibendum commodo auctor. Donec venenatis libero eros, vel fringilla tellus gravida nec. Phasellus eleifend feugiat augue, sit amet eleifend tortor. Nulla tristique at metus vitae congue. Aliquam at felis ullamcorper est cursus euismod a non turpis. Vivamus in diam tempor nulla pulvinar aliquet. Aenean sed mollis odio. Maecenas in consectetur eros. Quisque tincidunt rhoncus sapien at pellentesque. Nam ac consequat elit, ac faucibus diam. Vestibulum neque risus, varius sit amet leo vehicula, tincidunt suscipit lectus. Integer elit felis, lacinia quis elit ut, tempus vulputate dui. Praesent at elit metus. Duis ut nibh ut augue iaculis efficitur."
           }
         ]
       }
