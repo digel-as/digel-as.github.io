@@ -40,16 +40,18 @@ const Introduction = () => {
                 <h3 className="text-3xl font-bold leading-none mb-3 text-primary">
                   {item.title}
                 </h3>
-                {parseContent(item.content, item?.bold ?? [])}
+                {parseContent(item?.content ?? [], item?.bold ?? [])}
               </div>
             </div>
-            <div className="w-full sm:w-1/2 p-6 flex justify-center items-center">
-              <img
-                className="h-auto max-w-full object-contain"
-                src={item.img}
-                alt={item.title}
-              />
-            </div>
+            {item?.img && (
+              <div className="w-full sm:w-1/2 p-6 flex justify-center items-center">
+                <img
+                  className="h-auto max-w-full object-contain"
+                  src={item.img}
+                  alt={item.title}
+                />
+              </div>
+            )}
           </div>
         ))}
       </div>
