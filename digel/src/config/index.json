@@ -28,19 +28,18 @@
   },
   "title": {
     "slogan": "Delivering Industrial Digitalization with Cybernetics Expertise",
-    "img": "/assets/images/logo-light.png"
+    "img": ""
   },
   "introduction": {
-    "title": "About us",
+    "title": "",
     "items": [
       {
-        "title": "Hello!",
+        "title": "Hi!",
         "content": [
-          "Welcome to Digel, a fresh face in the realm of technical consultancy! We're a vibrant startup passionate about leveraging technology to create innovative solutions. Our core lies in a team of exceptional engineers, with roots deeply planted in cybernetics and industrial IT.",
-          "What sets us apart? A comprehensive spectrum of knowledge spanning automation, Operational Technology (OT), Information Technology (IT), and beyond. Whether you're navigating the intricacies of embedded systems, control/automation systems, cloud/backend development, or crafting user-friendly frontends, we're here to guide you. Our proficiency also extends to the art of managing vast arrays of timeseries data, a testament to our extensive industrial experience. At Digel, we're more than just consultants; we're problem solvers dedicated to transforming challenges into opportunities.",
-          "Our aim? To empower your business with tailored technical solutions that drive success. Whether you're looking to innovate, optimize, or simply understand the potential of technology in your operations, we're here to help. Embark on a journey of discovery and innovation with us. Let's solve the unsolvable, together."
+          "Digel is a newly founded company consisting of passionate engineers with backgrounds from cybernetics and robotics, and industrial IT.",
+          "Our consultants offer a broad range of expertise within automation systems, Operational Technology (OT) and Information Technology (IT). We are equipped to help you handle most problems ranging from embedded software development, designing and instrumentation of control and automation systems, as well as cloud/backend solutions, frontend development, and managing large amounts of timeseries data."
         ],
-        "img": "/assets/images/product1.jpg"
+        "img": ""
       },
       {
         "title": "Project Experience",
@@ -69,7 +68,7 @@
           "Seaweed",
           "Farming"
         ],
-        "img": "/assets/images/product2.jpg"
+        "img": ""
       }
     ]
   },
