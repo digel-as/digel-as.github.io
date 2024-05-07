@@ -95,39 +95,45 @@
     "items": [
       {
         "name": "Christoffer Lange",
-        "role": "CEO & Project Manager",
+        "role": "CEO",
         "img": "/assets/images/christoffer.png",
-        "description": "Manager driving effective digital transformations through industry insight and software expertise."
+        "description": "Manager driving effective digital transformations through industry insight and software expertise.",
+        "keywords": ["Project Management", "KBE"]
       },
       {
         "name": "Victor Iversen",
-        "role": "Automation Engineer",
+        "role": "",
         "img": "/assets/images/victor.png",
-        "description": "Automation and edge computing guru, making industrial systems efficient."
+        "description": "Automation and edge computing guru, making industrial systems efficient.",
+        "keywords": ["IoT", "Industrial Automation"]
       },
       {
         "name": "Thomas Andersen",
-        "role": "Software Engineer",
+        "role": "",
         "img": "/assets/images/thomas.png",
-        "description": "Embedded systems and cloud specialist, known for lightning-fast development."
+        "description": "Embedded systems and cloud specialist, known for lightning-fast development.",
+        "keywords": ["Cloud", "Embedded", "ML"]
       },
       {
         "name": "Axel Bech",
-        "role": "Software Engineer",
+        "role": "",
         "img": "/assets/images/axel.png",
-        "description": "Data engineer specializing in industrial applications."
+        "description": "Data engineer specializing in industrial applications.",
+        "keywords": ["Fullstack", "Modelling", "ML"]
       },
       {
         "name": "Erlend Blomseth",
-        "role": "Software Architect",
+        "role": "",
         "img": "/assets/images/erlend.png",
-        "description": "Software Engineer skilled in architecture and problem-solving"
+        "description": "Software Engineer skilled in architecture and problem-solving",
+        "keywords": ["Fullstack", "Architect"]
       },
       {
         "name": "Bjørn-Erik Dale",
         "role": "Chairman",
         "img": "/assets/images/bjorn-erik.png",
-        "description": "Technology savvy business professional; co-founder, investor, and board member in Norwegian tech companies."
+        "description": "Technology savvy business professional; co-founder, investor, and board member in Norwegian tech companies.",
+        "keywords": []
       }
     ]
   },
