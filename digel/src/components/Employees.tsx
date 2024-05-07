@@ -1,7 +1,7 @@
 import React from "react";
 import config from "../config/index.json";
-import Divider from "./Divider";
 import Chip from "./Chip";
+import LazyShow from "./LazyShow";
 
 const Employees = () => {
   const { employees } = config;
@@ -9,30 +9,30 @@ const Employees = () => {
   return (
     <section id="employees">
       <div className="container max-w-5xl mx-auto m-8">
-        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-tertiary">
+        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-primary">
           {employees.title}
         </h1>
-        <Divider />
         <div className="flex justify-center">
           <div
-            className={`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8`}
+            className={`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2`}
           >
             {employees.items.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white max-w-[300px] p-8 rounded-lg flex flex-col items-center justify-center gap-2"
-              >
-                <div className="max-h-32 flex flex-col items-center justify-center">
+              <LazyShow key={index}>
+                <div className="max-w-[500px] p-8 rounded-lg flex gap-3 text-primary">
                   <img
                     src={item.img ?? ""}
                     alt={item.name}
-                    className="w-auto h-full rounded-full"
+                    className="object-contain rounded-lg max-h-32"
                   />
+                  <div className="flex flex-col justify-around">
+                    <div>
+                      <h2 className="text-lg font-bold">{item.name}</h2>
+                      <p className="text-sm">{item.description}</p>
+                    </div>
+                    <Chip value={item.role} />
+                  </div>
                 </div>
-                <h2 className="text-lg font-bold">{item.name}</h2>
-                <Chip value={item.role} />
-                <p className="text-sm">{item.description}</p>
-              </div>
+              </LazyShow>
             ))}
           </div>
         </div>

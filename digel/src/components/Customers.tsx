@@ -1,17 +1,15 @@
 import React from "react";
 import config from "../config/index.json";
-import Divider from "./Divider";
 
 const Customers = () => {
   const { customers } = config;
 
   return (
     <section id="customers">
-      <div className="container max-w-5xl mx-auto m-8">
-        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-tertiary">
+      <div className="container max-w-5xl mx-auto m-24">
+        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-primary">
           {customers.title}
         </h1>
-        <Divider />
         <div className={`flex flex-row flex-wrap justify-center`}>
           {customers.items.map((item, index) => (
             <a

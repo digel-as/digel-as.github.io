@@ -1,6 +1,7 @@
 import React from "react";
 
 import config from "../config/index.json";
+import { ChevronRightIcon } from "@heroicons/react/outline";
 
 const About = () => {
   const { company, about } = config;
@@ -9,17 +10,24 @@ const About = () => {
 
   return (
     <div id="about">
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-between m-8 h-64">
         <div>
           <img src={logo} alt={companyName} className="w-auto h-16" />
         </div>
-        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
+        <div className="flex flex-wrap sm:gap-10 gap-4 items-center justify-center mt-4 h-12">
           {sections.map((section) => (
             <div key={section.name}>
               <h1 className="text-primary font-bold ">{section.name}</h1>
               <p className="text-white">{section.content}</p>
             </div>
           ))}
+          <a
+            className="flex items-center text-primary font-bold"
+            href="https://www.arbeidstilsynet.no/bemanningsvirksomhet/933191656/?q=digel"
+          >
+            <h1 className="mr-2">Approved Staffing Agency</h1>
+            <ChevronRightIcon className="w-6 h-6" />
+          </a>
         </div>
         <div className="flex items-center gap-x-8 mt-6 h-8">
           <a

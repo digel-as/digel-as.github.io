@@ -1,7 +1,7 @@
 {
   "company": {
     "name": "Digel",
-    "logo": "/assets/images/logo.png"
+    "logo": "/assets/images/logo-light.png"
   },
   "navigation": [
     {
@@ -12,10 +12,13 @@
       "name": "Customers",
       "href": "customers"
     },
-
     {
       "name": "Employees",
       "href": "employees"
+    },
+    {
+      "name": "Latest News",
+      "href": "latest-news"
     },
     {
       "name": "About",
@@ -28,36 +31,62 @@
   },
   "title": {
     "slogan": "Delivering Industrial Digitalization with Cybernetics Expertise",
-    "img": "/assets/images/logo.png"
+    "img": "/assets/images/logo-light.png"
   },
   "introduction": {
-    "title": "About us",
+    "title": "",
     "items": [
       {
-        "title": "Hello!",
+        "title": "Hi!",
         "content": [
-          "Welcome to Digel, a fresh face in the realm of technical consultancy! We're a vibrant startup passionate about leveraging technology to create innovative solutions. Our core lies in a team of exceptional engineers, with roots deeply planted in cybernetics and industrial IT.",
-          "What sets us apart? A comprehensive spectrum of knowledge spanning automation, Operational Technology (OT), Information Technology (IT), and beyond. Whether you're navigating the intricacies of embedded systems, control/automation systems, cloud/backend development, or crafting user-friendly frontends, we're here to guide you. Our proficiency also extends to the art of managing vast arrays of timeseries data, a testament to our extensive industrial experience. At Digel, we're more than just consultants; we're problem solvers dedicated to transforming challenges into opportunities.",
-          "Our aim? To empower your business with tailored technical solutions that drive success. Whether you're looking to innovate, optimize, or simply understand the potential of technology in your operations, we're here to help. Embark on a journey of discovery and innovation with us. Let's solve the unsolvable, together."
+          "Digel is a newly founded company consisting of passionate engineers with backgrounds from cybernetics and robotics, and industrial IT.",
+          "Our consultants offer a broad range of expertise within automation systems, Operational Technology (OT) and Information Technology (IT). We are equipped to help you handle most problems ranging from embedded software development, designing and instrumentation of control and automation systems, as well as cloud/backend solutions, frontend development, and managing large amounts of timeseries data."
         ],
-        "img": "/assets/images/product1.jpg"
+        "img": ""
       },
       {
         "title": "Project Experience",
         "content": [
           "Our team brings experience from a wide range of industries, including Oil & Gas, Maritime Operations, Aquaculture, Construction, Carbon Capture, Batteries, Shipyards, Electronics, Semiconductors, Agriculture, Wastewater Treatment, Fertilizer Production, and Seaweed Farming. This diverse industrial background empowers us to deliver innovative solutions across various sectors, leveraging our expertise to drive excellence and make a meaningful impact."
         ],
-        "img": "/assets/images/product2.jpg"
+        "bold": [
+          "Oil",
+          "&",
+          "Gas",
+          "Maritime",
+          "Operations",
+          "Aquaculture",
+          "Construction",
+          "Carbon",
+          "Capture",
+          "Batteries",
+          "Shipyards",
+          "Electronics",
+          "Semiconductors",
+          "Agriculture",
+          "Wastewater",
+          "Treatment",
+          "Fertilizer",
+          "Production",
+          "Seaweed",
+          "Farming"
+        ],
+        "img": ""
       }
     ]
   },
   "customers": {
-    "title": "Our customers",
+    "title": "Our customers and partners",
     "items": [
       {
         "name": "Aker Solutions",
         "img": "/assets/images/akerSolutions.png",
         "href": "https://www.akersolutions.com/"
+      },
+      {
+        "name": "NES Advantage Solutions",
+        "img": "/assets/images/NES.png",
+        "href": "https://www.nesfircroft.com/managed-solutions"
       }
     ]
   },
@@ -66,7 +95,7 @@
     "items": [
       {
         "name": "Christoffer Lange",
-        "role": "Project Manager",
+        "role": "CEO & Project Manager",
         "img": "/assets/images/christoffer.png",
         "description": "Manager driving effective digital transformations through industry insight and software expertise."
       },
@@ -84,7 +113,7 @@
       },
       {
         "name": "Axel Bech",
-        "role": "Data Engineer",
+        "role": "Software Engineer",
         "img": "/assets/images/axel.png",
         "description": "Data engineer specializing in industrial applications."
       },
@@ -102,11 +131,50 @@
       }
     ]
   },
+  "blog": {
+    "title": "Latest News",
+    "posts": [
+      {
+        "title": "Celebrating Innovation: The Launch of Digel",
+        "img": "/assets/images/product1.jpg",
+        "published": "Apr, 2024",
+        "sections": [
+          {
+            "title": "",
+            "content": "We are thrilled to announce the launch of Digel, a forward-thinking company driven by a passionate team of engineers with extensive backgrounds in cybernetics, robotics, and industrial IT. At Digel, innovation isn't just a buzzword; it's the cornerstone of everything we do."
+          },
+          {
+            "title": "Who We Are",
+            "content": "Digel is made up of a diverse team of engineers who bring a wealth of expertise and enthusiasm to the table. Our founders and team members have profound experience in the fields of cybernetics and robotics, two areas that are pivotal in the modern technological landscape. This expertise is complemented by a robust understanding of industrial IT, allowing us to create solutions that are not only innovative but also integral to the industries we serve."
+          }
+        ]
+      },
+      {
+        "title": "Automating design of 3D-models for Aker Solutions",
+        "img": "/assets/images/product2.jpg",
+        "published": "Apr 3, 2024",
+        "sections": [
+          {
+            "title": "",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan quis leo eu eleifend. Fusce semper ipsum et vehicula sodales. Curabitur ut elementum risus, placerat mollis lacus. Nulla in dolor tortor. Suspendisse potenti. Aliquam sagittis, sapien at porttitor vulputate, lectus eros ornare neque, vel pharetra enim lacus vitae ante. Aliquam leo tortor, mollis quis nisl in, feugiat fringilla libero. Fusce commodo enim id orci egestas, vitae congue neque sollicitudin. Duis tempus nunc ipsum, a tempus dolor posuere sit amet. Ut id est in dui venenatis suscipit sed at turpis. Sed et accumsan eros. Aliquam tincidunt faucibus purus sed varius. Aliquam sed orci nulla. Duis quis neque a est bibendum pharetra quis a nunc."
+          },
+          {
+            "title": "Project Goals",
+            "content": "Pellentesque laoreet auctor nibh non fringilla. Curabitur eget orci molestie, mattis ligula quis, viverra enim. Ut gravida, lacus nec fringilla dignissim, metus sem convallis justo, sit amet vestibulum nibh ligula ut erat. Donec ornare libero nisi, molestie lobortis massa euismod sed. Sed a scelerisque ligula, et vestibulum ex. Morbi scelerisque cursus libero vitae varius. In cursus lorem sit amet elit iaculis, ut pharetra nisl pellentesque. Vestibulum id posuere turpis, eu sagittis justo."
+          },
+          {
+            "title": "Tools we use",
+            "content": "Nam consectetur, ligula sed lobortis faucibus, arcu sapien scelerisque lacus, id rhoncus ipsum neque vel nisi. Praesent feugiat blandit vehicula. Morbi bibendum commodo auctor. Donec venenatis libero eros, vel fringilla tellus gravida nec. Phasellus eleifend feugiat augue, sit amet eleifend tortor. Nulla tristique at metus vitae congue. Aliquam at felis ullamcorper est cursus euismod a non turpis. Vivamus in diam tempor nulla pulvinar aliquet. Aenean sed mollis odio. Maecenas in consectetur eros. Quisque tincidunt rhoncus sapien at pellentesque. Nam ac consequat elit, ac faucibus diam. Vestibulum neque risus, varius sit amet leo vehicula, tincidunt suscipit lectus. Integer elit felis, lacinia quis elit ut, tempus vulputate dui. Praesent at elit metus. Duis ut nibh ut augue iaculis efficitur."
+          }
+        ]
+      }
+    ]
+  },
   "about": {
     "sections": [
       {
         "name": "E-mail",
-        "content": "post@digel.io"
+        "content": "hello@digel.io"
       },
       {
         "name": "Organization number",
