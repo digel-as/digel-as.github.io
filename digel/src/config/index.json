@@ -93,45 +93,45 @@
     "title": "Meet the Team!",
     "items": [
       {
-        "name": "Christoffer Lange",
-        "role": "CEO",
-        "img": "/assets/images/christoffer.png",
-        "description": "Manager driving effective digital transformations through industry insight and software expertise.",
-        "keywords": ["Project Management", "KBE"]
+        "name": "Christoffer Lange | CEO",
+        "role": "",
+        "img": "/assets/images/christoffer-2.png",
+        "description": "M.Sc. Engineering and ICT, Norwegian University of Science and Technology",
+        "keywords": ["Tech Lead", "Engineerng Automation", "Industrial IoT"]
       },
       {
         "name": "Victor Iversen",
         "role": "",
-        "img": "/assets/images/victor.png",
-        "description": "Automation and edge computing guru, making industrial systems efficient.",
+        "img": "/assets/images/victor-2.png",
+        "description": "M.Sc. Cybernetics and Robotics, Norwegian University of Science and Technology",
         "keywords": ["IoT", "Industrial Automation"]
       },
       {
         "name": "Thomas Andersen",
         "role": "",
-        "img": "/assets/images/thomas.png",
-        "description": "Embedded systems and cloud specialist, known for lightning-fast development.",
+        "img": "/assets/images/thomas-2.png",
+        "description": "M.Sc. Cybernetics and Robotics, Norwegian University of Science and Technology",
         "keywords": ["Cloud", "Embedded", "ML"]
       },
       {
         "name": "Axel Bech",
         "role": "",
-        "img": "/assets/images/axel.png",
-        "description": "Data engineer specializing in industrial applications.",
+        "img": "/assets/images/axel-2.png",
+        "description": "M.Sc. Cybernetics and Robotics, Norwegian University of Science and Technology",
         "keywords": ["Fullstack", "Modelling", "ML"]
       },
       {
         "name": "Erlend Blomseth",
         "role": "",
-        "img": "/assets/images/erlend.png",
-        "description": "Software Engineer skilled in architecture and problem-solving",
+        "img": "/assets/images/erlend-2.png",
+        "description": "M.Sc. Cybernetics and Robotics, Norwegian University of Science and Technology",
         "keywords": ["Fullstack", "Architect"]
       },
       {
-        "name": "Bjørn-Erik Dale",
-        "role": "Chairman",
+        "name": "Bjørn-Erik Dale | Chairman",
+        "role": "",
         "img": "/assets/images/bjorn-erik.png",
-        "description": "Technology savvy business professional; co-founder, investor, and board member in Norwegian tech companies.",
+        "description": "M.Sc. Industrial Economics and Technology Management, Norwegian University of Science and Technology",
         "keywords": []
       }
     ]
