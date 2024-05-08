@@ -37,17 +37,16 @@
     "title": "",
     "items": [
       {
-        "title": "Hi!",
+        "title": "About Us",
         "content": [
-          "Digel is a newly founded company consisting of passionate engineers with backgrounds from cybernetics and robotics, and industrial IT.",
-          "Our consultants offer a broad range of expertise within automation systems, Operational Technology (OT) and Information Technology (IT). We are equipped to help you handle most problems ranging from embedded software development, designing and instrumentation of control and automation systems, as well as cloud/backend solutions, frontend development, and managing large amounts of timeseries data."
+          "Our team includes engineers with strong backgrounds in cybernetics, robotics, and industrial IT. We have solid expertise in automation systems, covering both Operational Technology (OT) and Information Technology (IT) aspects. Whether it's developing embedded software, designing control systems, working on cloud solutions, or managing frontend development, we can handle it. We also excel in managing large amounts of timeseries data and applying machine learning and AI technologies."
         ],
         "img": ""
       },
       {
         "title": "Project Experience",
         "content": [
-          "Our team brings experience from a wide range of industries, including Oil & Gas, Maritime Operations, Aquaculture, Construction, Carbon Capture, Batteries, Shipyards, Electronics, Semiconductors, Agriculture, Wastewater Treatment, Fertilizer Production, and Seaweed Farming. This diverse industrial background empowers us to deliver innovative solutions across various sectors, leveraging our expertise to drive excellence and make a meaningful impact."
+          "Our team's wide-ranging industry experience equips us to deliver innovative solutions in various sectors. Examples include: Maritime Operations, Oil & Gas, Aquaculture, Construction, Carbon Capture, Batteries, Shipyards, Electronics, Semiconductors, Agriculture, Wastewater Treatment, Fertilizer Production, and Seaweed Farming."
         ],
         "bold": [
           "Oil",
@@ -76,7 +75,7 @@
     ]
   },
   "customers": {
-    "title": "Our customers and partners",
+    "title": "Our Customers and Partners",
     "items": [
       {
         "name": "Aker Solutions",
@@ -91,7 +90,7 @@
     ]
   },
   "employees": {
-    "title": "Meet the team!",
+    "title": "Meet the Team!",
     "items": [
       {
         "name": "Christoffer Lange",
