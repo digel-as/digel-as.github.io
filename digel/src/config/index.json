@@ -96,42 +96,42 @@
         "name": "Christoffer Lange | CEO",
         "role": "",
         "img": "/assets/images/christoffer-2.png",
-        "description": "M.Sc. Engineering and ICT, Norwegian University of Science and Technology",
+        "description": "M.Sc. Engineering & ICT, Norwegian University of Science and Technology",
         "keywords": ["Tech Lead", "Engineerng Automation", "Industrial IoT"]
       },
       {
         "name": "Victor Iversen",
         "role": "",
         "img": "/assets/images/victor-2.png",
-        "description": "M.Sc. Cybernetics and Robotics, Norwegian University of Science and Technology",
+        "description": "M.Sc. Cybernetics & Robotics, Norwegian University of Science and Technology",
         "keywords": ["IoT", "Industrial Automation"]
       },
       {
         "name": "Thomas Andersen",
         "role": "",
         "img": "/assets/images/thomas-2.png",
-        "description": "M.Sc. Cybernetics and Robotics, Norwegian University of Science and Technology",
-        "keywords": ["Cloud", "Embedded", "ML"]
+        "description": "M.Sc. Cybernetics & Robotics, Norwegian University of Science and Technology",
+        "keywords": ["Cloud", "Embedded", "Machine Learning"]
       },
       {
         "name": "Axel Bech",
         "role": "",
         "img": "/assets/images/axel-2.png",
-        "description": "M.Sc. Cybernetics and Robotics, Norwegian University of Science and Technology",
-        "keywords": ["Fullstack", "Modelling", "ML"]
+        "description": "M.Sc. Cybernetics & Robotics, Norwegian University of Science and Technology",
+        "keywords": ["Fullstack", "Modelling", "Machine Learning"]
       },
       {
         "name": "Erlend Blomseth",
         "role": "",
         "img": "/assets/images/erlend-2.png",
-        "description": "M.Sc. Cybernetics and Robotics, Norwegian University of Science and Technology",
+        "description": "M.Sc. Cybernetics & Robotics, Norwegian University of Science and Technology",
         "keywords": ["Fullstack", "Architect"]
       },
       {
         "name": "Bjørn-Erik Dale | Chairman",
         "role": "",
         "img": "/assets/images/bjorn-erik.png",
-        "description": "M.Sc. Industrial Economics and Technology Management, Norwegian University of Science and Technology",
+        "description": "M.Sc. Industrial Economics & Technology Management, Norwegian University of Science and Technology",
         "keywords": []
       }
     ]
