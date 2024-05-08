@@ -14,7 +14,7 @@ const About = () => {
         <div>
           <img src={logo} alt={companyName} className="w-auto h-16" />
         </div>
-        <div className="flex flex-wrap sm:gap-10 gap-4 items-center justify-center mt-4 h-12">
+        <div className="flex flex-wrap sm:gap-10 gap-4 items-center justify-center mt-2">
           {sections.map((section) => (
             <div key={section.name}>
               <h1 className="text-primary font-bold ">{section.name}</h1>
@@ -29,7 +29,7 @@ const About = () => {
             <ChevronRightIcon className="w-6 h-6" />
           </a>
         </div>
-        <div className="flex items-center gap-x-8 mt-6 h-8">
+        <div className="flex items-center gap-x-8 mt-4">
           <a
             aria-label="github"
             href={socialMedia.github}

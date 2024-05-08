@@ -187,6 +187,10 @@
         "content": "hello@digel.io"
       },
       {
+        "name": "Phone number",
+        "content": "+47 95744191"
+      },
+      {
         "name": "Organization number",
         "content": "933 191 656"
       }
