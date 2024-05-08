@@ -166,7 +166,7 @@
             "img": {
               "src": "/assets/images/product2.jpg",
               "caption": "This is a caption",
-              "width": "20%"
+              "width": 500
             }
           },
           {
