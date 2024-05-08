@@ -24,7 +24,7 @@ const Employees = () => {
                     alt={item.name}
                     className="object-contain rounded-lg max-h-32"
                   />
-                  <div className="flex flex-col justify-around">
+                  <div className="flex flex-col justify-evenly">
                     <div>
                       <h2 className="text-lg font-bold">{item.name}</h2>
                       <h6 className="text-sm font-semibold">{item.role}</h6>

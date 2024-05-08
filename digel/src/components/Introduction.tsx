@@ -9,7 +9,7 @@ const Introduction = () => {
     return content.map((paragraph, index) => {
       const words = paragraph.split(" ");
       return (
-        <p className="text-primary mb-8" key={index}>
+        <p className="text-primary mb-8 text-xl" key={index}>
           {words.map((word, i) => {
             const isBold = boldWords.includes(word.replace(/[.,!?]/g, ""));
             return isBold ? (
@@ -30,7 +30,7 @@ const Introduction = () => {
         </h1>
         <div className="flex flex-col md:flex-row p-4">
           {introduction.items.map((item, index) => (
-            <div key={index} className={`p-3`}>
+            <div key={index} className={`p-3 max-w-prose`}>
               <h3 className="text-3xl font-bold leading-none mb-3 text-primary">
                 {item.title}
               </h3>
