@@ -162,7 +162,12 @@
         "sections": [
           {
             "title": "",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan quis leo eu eleifend. Fusce semper ipsum et vehicula sodales. Curabitur ut elementum risus, placerat mollis lacus. Nulla in dolor tortor. Suspendisse potenti. Aliquam sagittis, sapien at porttitor vulputate, lectus eros ornare neque, vel pharetra enim lacus vitae ante. Aliquam leo tortor, mollis quis nisl in, feugiat fringilla libero. Fusce commodo enim id orci egestas, vitae congue neque sollicitudin. Duis tempus nunc ipsum, a tempus dolor posuere sit amet. Ut id est in dui venenatis suscipit sed at turpis. Sed et accumsan eros. Aliquam tincidunt faucibus purus sed varius. Aliquam sed orci nulla. Duis quis neque a est bibendum pharetra quis a nunc."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan quis leo eu eleifend. Fusce semper ipsum et vehicula sodales. Curabitur ut elementum risus, placerat mollis lacus. Nulla in dolor tortor. Suspendisse potenti. Aliquam sagittis, sapien at porttitor vulputate, lectus eros ornare neque, vel pharetra enim lacus vitae ante. Aliquam leo tortor, mollis quis nisl in, feugiat fringilla libero. Fusce commodo enim id orci egestas, vitae congue neque sollicitudin. Duis tempus nunc ipsum, a tempus dolor posuere sit amet. Ut id est in dui venenatis suscipit sed at turpis. Sed et accumsan eros. Aliquam tincidunt faucibus purus sed varius. Aliquam sed orci nulla. Duis quis neque a est bibendum pharetra quis a nunc.",
+            "img": {
+              "src": "/assets/images/product2.jpg",
+              "caption": "This is a caption",
+              "width": 500
+            }
           },
           {
             "title": "Project Goals",

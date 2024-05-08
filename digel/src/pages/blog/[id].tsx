@@ -37,7 +37,20 @@ const BlogPostPage: React.FC = () => {
         {post.sections.map((section, index) => (
           <div key={index} className="mt-4">
             <h2 className="text-2xl font-semibold">{section.title}</h2>
-            <p className="mt-2">{section.content}</p>
+            <p className="my-4">{section.content}</p>
+            {section.img && (
+              <div className="flex flex-col items-center gap-2">
+                <img
+                  src={section.img.src}
+                  style={{
+                    objectFit: "cover",
+                    width: section.img.width ?? "100%",
+                    height: "auto",
+                  }}
+                />
+                {section.img.caption && <p>{section.img.caption}</p>}
+              </div>
+            )}
           </div>
         ))}
         <div className="mt-8 text-let">
