@@ -156,25 +156,33 @@
       },
       {
         "title": "Automating design of 3D-models for Aker Solutions",
-        "img": "/assets/images/aker-solutions-oil-platform.jpeg",
+        "img": "/assets/images/axel-christoffer-aker-2.jpg",
         "published": "Apr 3, 2024",
         "sections": [
           {
             "title": "",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan quis leo eu eleifend. Fusce semper ipsum et vehicula sodales. Curabitur ut elementum risus, placerat mollis lacus. Nulla in dolor tortor. Suspendisse potenti. Aliquam sagittis, sapien at porttitor vulputate, lectus eros ornare neque, vel pharetra enim lacus vitae ante. Aliquam leo tortor, mollis quis nisl in, feugiat fringilla libero. Fusce commodo enim id orci egestas, vitae congue neque sollicitudin. Duis tempus nunc ipsum, a tempus dolor posuere sit amet. Ut id est in dui venenatis suscipit sed at turpis. Sed et accumsan eros. Aliquam tincidunt faucibus purus sed varius. Aliquam sed orci nulla. Duis quis neque a est bibendum pharetra quis a nunc.",
             "img": {
-              "src": "/assets/images/product2.jpg",
+              "src": "/assets/images/axel-christoffer-aker-3.jpg",
               "caption": "This is a caption",
               "width": 500
             }
           },
           {
             "title": "Project Goals",
-            "content": "Pellentesque laoreet auctor nibh non fringilla. Curabitur eget orci molestie, mattis ligula quis, viverra enim. Ut gravida, lacus nec fringilla dignissim, metus sem convallis justo, sit amet vestibulum nibh ligula ut erat. Donec ornare libero nisi, molestie lobortis massa euismod sed. Sed a scelerisque ligula, et vestibulum ex. Morbi scelerisque cursus libero vitae varius. In cursus lorem sit amet elit iaculis, ut pharetra nisl pellentesque. Vestibulum id posuere turpis, eu sagittis justo."
+            "content": "Pellentesque laoreet auctor nibh non fringilla. Curabitur eget orci molestie, mattis ligula quis, viverra enim. Ut gravida, lacus nec fringilla dignissim, metus sem convallis justo, sit amet vestibulum nibh ligula ut erat. Donec ornare libero nisi, molestie lobortis massa euismod sed. Sed a scelerisque ligula, et vestibulum ex. Morbi scelerisque cursus libero vitae varius. In cursus lorem sit amet elit iaculis, ut pharetra nisl pellentesque. Vestibulum id posuere turpis, eu sagittis justo.",
+            "img": {
+              "src": "/assets/images/aker-solutions-oil-platform.jpeg",
+              "width": "50%"
+            }
           },
           {
             "title": "Tools we use",
-            "content": "Nam consectetur, ligula sed lobortis faucibus, arcu sapien scelerisque lacus, id rhoncus ipsum neque vel nisi. Praesent feugiat blandit vehicula. Morbi bibendum commodo auctor. Donec venenatis libero eros, vel fringilla tellus gravida nec. Phasellus eleifend feugiat augue, sit amet eleifend tortor. Nulla tristique at metus vitae congue. Aliquam at felis ullamcorper est cursus euismod a non turpis. Vivamus in diam tempor nulla pulvinar aliquet. Aenean sed mollis odio. Maecenas in consectetur eros. Quisque tincidunt rhoncus sapien at pellentesque. Nam ac consequat elit, ac faucibus diam. Vestibulum neque risus, varius sit amet leo vehicula, tincidunt suscipit lectus. Integer elit felis, lacinia quis elit ut, tempus vulputate dui. Praesent at elit metus. Duis ut nibh ut augue iaculis efficitur."
+            "content": "Nam consectetur, ligula sed lobortis faucibus, arcu sapien scelerisque lacus, id rhoncus ipsum neque vel nisi. Praesent feugiat blandit vehicula. Morbi bibendum commodo auctor. Donec venenatis libero eros, vel fringilla tellus gravida nec. Phasellus eleifend feugiat augue, sit amet eleifend tortor. Nulla tristique at metus vitae congue. Aliquam at felis ullamcorper est cursus euismod a non turpis. Vivamus in diam tempor nulla pulvinar aliquet. Aenean sed mollis odio. Maecenas in consectetur eros. Quisque tincidunt rhoncus sapien at pellentesque. Nam ac consequat elit, ac faucibus diam. Vestibulum neque risus, varius sit amet leo vehicula, tincidunt suscipit lectus. Integer elit felis, lacinia quis elit ut, tempus vulputate dui. Praesent at elit metus. Duis ut nibh ut augue iaculis efficitur.",
+            "img": {
+              "src": "/assets/images/axel-christoffer-aker.jpg",
+              "width": "50%"
+            }
           }
         ]
       }
