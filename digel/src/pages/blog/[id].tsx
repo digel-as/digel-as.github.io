@@ -46,9 +46,10 @@ const BlogPostPage: React.FC = () => {
                     objectFit: "cover",
                     width: section.img.width ?? "100%",
                     height: "auto",
+                    borderRadius: 10,
                   }}
                 />
-                {section.img.caption && <p>{section.img.caption}</p>}
+                {section.img?.caption && <p>{section.img.caption}</p>}
               </div>
             )}
           </div>
