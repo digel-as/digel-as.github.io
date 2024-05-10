@@ -37,11 +37,11 @@ const Blog: React.FC = () => {
         {blog.posts.slice(0, visiblePosts).map((post, index) => (
           <Link key={index} href={`/blog/${index}`}>
             <a className="block w-full sm:w-1/2 max-w-lg">
-              <div className="relative w-full h-64 mb-4 rounded-lg overflow-hidden">
+              <div className="w-full mb-4">
                 <img
                   src={post.img}
                   alt={post.title}
-                  style={{ objectFit: "cover" }}
+                  style={{ objectFit: "cover", borderRadius: 10 }}
                 />
               </div>
               <h2 className="text-2xl font-bold">{post.title}</h2>
