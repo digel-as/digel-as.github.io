@@ -149,11 +149,11 @@
           },
           {
             "title": "Project Overview",
-            "content": "The project utilizes Python and the ParaPy framework to automate the complex design process of these stair towers, significantly accelerating the development from weeks to minutes. This application ensures that each stair tower is not only structurally sound but also ergonomically designed to facilitate easy and safe usage by offshore personnel. The application interfaces seamlessly with E3D from Aveva, a 3D design software for process and power plants."
+            "content": "The application reduces the traditional design time for stair towers from several weeks to a few minutes. Using Python and the ParaPy framework, it automates the complex design process, while ensuring each stair tower is structurally sound and ergonomically efficient for safe use by offshore personnel. Additionally, the application integrates seamlessly with E3D from Aveva, a 3D design software used extensively in process and power plant engineering."
           },
           {
             "title": "Digel's Role",
-            "content": "Our contribution extends beyond software development to include project management, leveraging our in-depth industrial knowledge to address specific engineering challenges effectively. This project exemplifies our ability to integrate advanced technology solutions within traditional industries.",
+            "content": "Our contribution includes software development and project management. Digel utilizes our industrial expertise and knowledge of both traditional engineering and software competencies to effectively address specific engineering challenges.",
             "img": {
               "src": "/assets/images/axel-christoffer-aker-2.jpg",
               "caption": "'It is inherent in Digel's nature to engage in processes that drive disruptive changes in industrial operations', says Christoffer, reflecting on the core philosophy that guides our work."
@@ -161,7 +161,7 @@
           },
           {
             "title": "Conclusion",
-            "content": "The collaborative efforts between Digel and Aker Solutions demonstrate the benefits of applying modern software solutions to streamline complex engineering tasks, setting new standards for efficiency and innovation in the industry."
+            "content": "The collaborative efforts between Digel and Aker Solutions demonstrate the benefits of applying modern software solutions to streamline complex engineering tasks, setting new standards for efficiency and innovation in the industry. To achieve truly disruptive changes, it is essential to possess expertise not only in engineering but also in IT. Mastery of both disciplines is key to realizing the real benefits of digitalization."
           }
         ]
       }
