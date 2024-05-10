@@ -140,21 +140,6 @@
     "title": "Latest News",
     "posts": [
       {
-        "title": "Celebrating Innovation: The Launch of Digel",
-        "img": "/assets/images/product1.jpg",
-        "published": "Apr, 2024",
-        "sections": [
-          {
-            "title": "",
-            "content": "We are thrilled to announce the launch of Digel, a forward-thinking company driven by a passionate team of engineers with extensive backgrounds in cybernetics, robotics, and industrial IT. At Digel, innovation isn't just a buzzword; it's the cornerstone of everything we do."
-          },
-          {
-            "title": "Who We Are",
-            "content": "Digel is made up of a diverse team of engineers who bring a wealth of expertise and enthusiasm to the table. Our founders and team members have profound experience in the fields of cybernetics and robotics, two areas that are pivotal in the modern technological landscape. This expertise is complemented by a robust understanding of industrial IT, allowing us to create solutions that are not only innovative but also integral to the industries we serve."
-          }
-        ]
-      },
-      {
         "title": "Automating design of 3D-models for Aker Solutions",
         "img": "/assets/images/axel-christoffer-aker-2.jpg",
         "published": "Apr 3, 2024",
