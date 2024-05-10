@@ -1,17 +1,46 @@
 // pages/blog/[id].tsx
 import React from "react";
-import config from "../../config/index.json";
-import { useRouter } from "next/router";
+import { BlogPost } from "../../types/types";
 import Head from "next/head";
 import Link from "next/link";
+import fs from "fs";
+import path from "path";
+import { GetStaticProps, GetStaticPaths } from "next";
 
-const BlogPostPage: React.FC = () => {
-  const router = useRouter();
-  const { id } = router.query;
-  if (!id) {
-    return <p>Post not found!</p>;
+// This function reads your JSON file from the filesystem
+function readData() {
+  const filePath = path.join(process.cwd(), "src", "config", "index.json"); // Ensure the path matches where your JSON file is stored
+  const jsonContent = fs.readFileSync(filePath, "utf8");
+  return JSON.parse(jsonContent);
+}
+
+// This function generates paths for all blog posts
+export const getStaticPaths: GetStaticPaths = async () => {
+  const data = readData();
+  const paths = data.blog.posts.map((_: any, index: number) => ({
+    params: { id: String(index) }, // Assuming each post's ID is its index in the array
+  }));
+
+  return { paths, fallback: false };
+};
+
+// This function fetches the data for a single blog post
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const data = readData();
+
+  if (!params?.id) {
+    return { notFound: true };
   }
-  const post = config.blog.posts[+id]; // Convert id to number and access the post
+  const post = data.blog.posts[+params!.id];
+
+  if (!post) {
+    return { notFound: true };
+  }
+
+  return { props: { post } };
+};
+
+const BlogPostPage: React.FC<{ post: BlogPost }> = ({ post }) => {
   if (!post) {
     return <p>Post not found!</p>;
   }
