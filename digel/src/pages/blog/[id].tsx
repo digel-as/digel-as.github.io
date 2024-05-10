@@ -17,7 +17,7 @@ function readData() {
 // This function generates paths for all blog posts
 export const getStaticPaths: GetStaticPaths = async () => {
   const data = readData();
-  const paths = data.blog.posts.map((post: any, index: number) => ({
+  const paths = data.blog.posts.map((_: any, index: number) => ({
     params: { id: String(index) }, // Assuming each post's ID is its index in the array
   }));
 
