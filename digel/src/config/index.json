@@ -140,7 +140,7 @@
     "title": "Latest News",
     "posts": [
       {
-        "title": "Streamlining Engineering at Aker Solutions: Application for Designing Stair Towers Reduces Project Timeframes",
+        "title": "Streamlining Engineering at Aker Solutions",
         "img": "/assets/images/chris-axel.jpg",
         "published": "Apr 3, 2024",
         "sections": [
@@ -153,18 +153,15 @@
           },
           {
             "title": "Digel's Role",
-            "content": "Our contribution extends beyond software development to include project management, leveraging our in-depth industrial knowledge to address specific engineering challenges effectively. This project exemplifies our ability to integrate advanced technology solutions within traditional industries."
-          },
-          {
-            "content": "'It is inherent in Digel's nature to engage in processes that drive disruptive changes in industrial operations', says Christoffer, reflecting on the core philosophy that guides our work."
+            "content": "Our contribution extends beyond software development to include project management, leveraging our in-depth industrial knowledge to address specific engineering challenges effectively. This project exemplifies our ability to integrate advanced technology solutions within traditional industries.",
+            "img": {
+              "src": "/assets/images/axel-christoffer-aker-2.jpg",
+              "caption": "'It is inherent in Digel's nature to engage in processes that drive disruptive changes in industrial operations', says Christoffer, reflecting on the core philosophy that guides our work."
+            }
           },
           {
             "title": "Conclusion",
-            "content": "The collaborative efforts between Digel and Aker Solutions demonstrate the benefits of applying modern software solutions to streamline complex engineering tasks, setting new standards for efficiency and innovation in the industry.",
-            "img": {
-              "src": "/assets/images/axel-christoffer-aker-2.jpg",
-              "width": 500
-            }
+            "content": "The collaborative efforts between Digel and Aker Solutions demonstrate the benefits of applying modern software solutions to streamline complex engineering tasks, setting new standards for efficiency and innovation in the industry."
           }
         ]
       }
