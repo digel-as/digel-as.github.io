@@ -65,6 +65,14 @@ export interface BlogSection {
 
 export interface BlogPost {
   title: string;
+  author?: {
+    name: string;
+    src: string;
+  };
+  relevantPost?: {
+    name: string;
+    url: string;
+  };
   img: string;
   published: string;
   sections: BlogSection[];
