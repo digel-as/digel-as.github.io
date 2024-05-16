@@ -33,7 +33,7 @@ const Employees = () => {
                     {/*<Chip value={item.role} />*/}
                     <div className="flex gap-1 flex-wrap">
                       {item.keywords.map((keyword) => (
-                        <Chip value={keyword} />
+                        <Chip key={keyword} value={keyword} />
                       ))}
                     </div>
                   </div>
