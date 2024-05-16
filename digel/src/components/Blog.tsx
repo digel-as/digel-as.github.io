@@ -22,10 +22,12 @@ interface BlogConfig {
 const Blog: React.FC = () => {
   const { blog } = config as { blog: BlogConfig };
 
-  const [visiblePosts, setVisiblePosts] = useState<number>(3);
+  const numVisiblePosts = 2;
+
+  const [visiblePosts, setVisiblePosts] = useState<number>(numVisiblePosts);
 
   const loadMorePosts = () => {
-    setVisiblePosts((prev) => prev + 3);
+    setVisiblePosts((prev) => prev + numVisiblePosts);
   };
 
   return (
