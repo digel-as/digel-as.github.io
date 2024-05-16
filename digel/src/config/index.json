@@ -142,7 +142,11 @@
       {
         "title": "Streamlining Engineering at Aker Solutions",
         "img": "/assets/images/chris-axel.jpg",
-        "published": "Apr 3, 2024",
+        "author": {
+          "name": "Christoffer Lange",
+          "src": "/assets/images/christoffer-2.png"
+        },
+        "published": "4 min read - Apr 3, 2024",
         "sections": [
           {
             "content": "Digel is working with Aker Solutions to advance engineering processes, particularly in the design of stair towers for offshore installations."
@@ -167,8 +171,16 @@
       },
       {
         "title": "An Introduction to Reinforcement Learning: What is it, and what can it be used for?",
+        "author": {
+          "name": "Thomas Andersen",
+          "src": "/assets/images/thomas-2.png"
+        },
+        "relevantPost": {
+          "name": "Norsk versjon",
+          "url": "/blog/2"
+        },
         "img": "/assets/images/rl-intro-blog-post.webp",
-        "published": "May 5, 2024",
+        "published": "12 min read - May 5, 2024",
         "sections": [
           {
             "content": "Are you curious about how machines can learn by experience and improve over time? At Digel, we believe that Reinforcement Learning (RL) can be the key framework for optimizing industrial processes. In this blog post, I will give you a simple introduction to RL, how it works, what separates it from other machine learning methods, and some use cases."
@@ -232,8 +244,16 @@
       },
       {
         "title": "En introduksjon til Reinforcement Learning: Hva er det, og hva kan det brukes til?",
+        "author": {
+          "name": "Thomas Andersen",
+          "src": "/assets/images/thomas-2.png"
+        },
+        "relevantPost": {
+          "name": "English version",
+          "url": "/blog/1"
+        },
         "img": "/assets/images/rl-intro-blog-post.webp",
-        "published": "5. mai 2024",
+        "published": "12 min lesing - 5. mai 2024",
         "sections": [
           {
             "content": "Er du nysgjerrig på hvordan maskiner kan lære av erfaring og forbedre seg over tid? Hos Digel tror vi at Reinforcement Learning (RL) kan være et godt rammeverket for å optimalisere industrielle prosesser. I dette blogginnlegget vil jeg gi deg en enkel introduksjon til RL, hvordan det fungerer, hva som skiller det fra andre maskinlæringsmetoder, og noen bruksområder."

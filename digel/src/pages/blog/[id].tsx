@@ -68,13 +68,32 @@ const BlogPostPage: React.FC<{ post: BlogPost }> = ({ post }) => {
       </div>
       <div className="flex justify-center w-full">
         <div className=" max-w-screen-lg p-4 md:p-16">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">{post.title}</h1>
+          <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+          <div className="flex items-center justify-between">
+            {post.author && (
+              <div className="flex items-center gap-3">
+                <img
+                  src={post.author.src}
+                  className="object-contain rounded-full max-h-16"
+                />
+                <div className="flex flex-col">
+                  <h6 className="font-normal">{post.author.name}</h6>
+                  <p className="font-extralight">{post.published}</p>
+                </div>
+              </div>
+            )}
+            {post.relevantPost && (
+              <Link href={post.relevantPost.url}>
+                <a className="text-lg text-accent hover:text-blue-700">
+                  {post.relevantPost.name}
+                </a>
+              </Link>
+            )}
+          </div>
           {post.sections.map((section, index) => (
             <div key={index} className="mt-4">
-              <h2 className="text-3xl md:text-5xl font-semibold">
-                {section.title}
-              </h2>
-              <p className="my-4 text-xl md:text-3xl">{section.content}</p>
+              <h2 className="text-3xl font-semibold">{section.title}</h2>
+              <p className="my-4 text-xl">{section.content}</p>
               {section.img && (
                 <div className="flex flex-col items-center">
                   <div>
@@ -94,7 +113,7 @@ const BlogPostPage: React.FC<{ post: BlogPost }> = ({ post }) => {
               )}
             </div>
           ))}
-          <div className="my-8 text-let">
+          <div className="my-8">
             <Link href="/#latest-news">
               <a className="text-lg text-accent hover:text-blue-700">
                 Back to Main Page
