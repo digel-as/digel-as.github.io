@@ -239,7 +239,7 @@
             "content": "Er du nysgjerrig på hvordan maskiner kan lære av erfaring og forbedre seg over tid? Hos Digel tror vi at Reinforcement Learning (RL) kan være et godt rammeverket for å optimalisere industrielle prosesser. I dette blogginnlegget vil jeg gi deg en enkel introduksjon til RL, hvordan det fungerer, hva som skiller det fra andre maskinlæringsmetoder, og noen bruksområder."
           },
           {
-            "title": "De tre klassene av maskinlæring",
+            "title": "De tre hovedtypene maskinlæring",
             "content": "Innenfor maskinlæringsverdenen (ML) kategoriserer vi vanligvis læringsmetoder i tre klasser: 'Supervised Learning', 'Unsupervised Learning', og RL."
           },
           {
