@@ -164,6 +164,136 @@
             "content": "The collaborative efforts between Digel and Aker Solutions demonstrate the benefits of applying modern software solutions to streamline complex engineering tasks, setting new standards for efficiency and innovation in the industry. To achieve truly disruptive changes, it is essential to possess expertise not only in engineering but also in IT. Mastery of both disciplines is key to realizing the real benefits of digitalization."
           }
         ]
+      },
+      {
+        "title": "An Introduction to Reinforcement Learning: What is it, and what can it be used for?",
+        "img": "/assets/images/rl-intro-blog-post.webp",
+        "published": "May 5, 2024",
+        "sections": [
+          {
+            "content": "Are you curious about how machines can learn by experience and improve over time? At Digel, we believe that Reinforcement Learning (RL) can be the key framework for optimizing industrial processes. In this blog post, I will give you a simple introduction to RL, how it works, what separates it from other machine learning methods, and some use cases."
+          },
+          {
+            "title": "The Three Classes of Machine Learning",
+            "content": "Within the world of machine learning (ML), we typically categorize methods of learning into three classes: supervised learning, unsupervised learning, and RL."
+          },
+          {
+            "content": "In supervised learning, a dataset that maps inputs to correct outputs is used for training the AI agent. Supervised learning is often used for image classification, e.g., classifying animals in pictures. The dataset used to train the animal-classifying agent will typically consist of images of a broad range of species, each individually labeled with the species name. This is why we call it supervised learning since the learning process is guided by a 'supervisor' that provides correct answers for each example in the training data. The AI agent learns to associate input images with the correct labels through this process, improving its accuracy over time."
+          },
+          {
+            "content": "On the other hand, unsupervised learning is a set of methods that try to identify patterns and relationships within the data. A typical unsupervised learning approach is clustering techniques, i.e., grouping similar data points together. If we continue with our dataset of animal species, we may reformulate the classification problem to an unsupervised learning problem where we find similarities between species from the images without prior knowledge of the animal names."
+          },
+          {
+            "content": "With RL, the AI agent learns by interacting with its environment. The agent receives feedback from the environment in the form of rewards or penalties based on its actions. Through trial and error, the agent aims to maximize its rewards over time (and minimize penalties) to find an optimal action to take at any given state. Continuing with our animal-themed examples, we might want to try to train an RL agent to survive in nature. The agent will receive a reward for every encounter with an animal where the agent stays alive and will receive a penalty for encounters with predators that eat the agent. By simulating enough encounters with different species, the agent will learn to avoid a set of species.",
+            "img": {
+              "src": "/assets/images/rl-intro-architecture-blog-post.jpg",
+              "caption": "The basic components of all reinforcement learning architectures consists of an agent interacting with an environment."
+            }
+          },
+          {
+            "title": "RL vs. Control Theory",
+            "content": "As exemplified in the last paragraph, RL agents are trained to make sequences of actions that maximize some notion of cumulative reward. In reinforcement learning literature, one often refers to the decision-making function as the agent's policy. The goal is to optimize the policy in such a way that maximizes the agent's reward when interacting with the environment. In other words, the problems solved by RL may also be phrased as control problems. The policy that is continuously updated for each simulation cycle may be viewed as the control law used for making optimized actions in the environment. The main difference between traditional control theory and reinforcement learning is that RL involves adaptive learning from interactions, while control theory usually involves pre-designed controllers based on system models. It is due to reinforcement learning's trial-and-error approach to finding optimal policies that reinforcement learning excels in complex, uncertain, dynamic environments where learning from experience is crucial."
+          },
+          {
+            "title": "Where is RL used today?",
+            "content": "Reinforcement learning is for instance used in e-commerce to enhance suggestion systems. By analyzing user behavior and feedback, RL algorithms can learn to suggest products that are more likely to interest the user, thereby improving user experience and increasing sales. For example, an RL-based recommendation system might suggest new products based on past purchases and browsing history, continually refining its suggestions as it learns more about user preferences."
+          },
+          {
+            "content": "In the gaming industry, reinforcement learning has led to significant advancements, particularly in developing sophisticated game AI. AlphaGO, developed by DeepMind, is a prime example where RL enabled the AI to master the complex game of Go, even defeating world champions. Similarly, RL techniques have been applied to Atari games, allowing AI agents to learn and master these games through trial and error, often achieving superhuman performance.",
+            "img": {
+              "src": "/assets/images/rl-intro-go-blog-post.jpg",
+              "caption": "AlphaGo by Deepmind utilized reinforcement learning methods to beat the top go player Lee Sedol."
+            }
+          },
+          {
+            "content": "RL approaches are also trending in robotics and the development of autonomous vehicles. In robotics, RL is used to teach robots how to perform complex tasks such as object manipulation, navigation, and human-robot interaction. For autonomous vehicles, RL helps in decision-making processes, enabling the vehicle to navigate through dynamic environments, avoid obstacles, and optimize routes based on real-time data."
+          },
+          {
+            "content": "Generative AI models, such as those used for creating art, music, or text, benefit from RL by incorporating human feedback to refine their outputs. RL allows these models to adjust their generation strategies based on the rewards or penalties received from human interactions. This approach leads to more nuanced and higher-quality outputs that align better with human preferences and creativity."
+          },
+          {
+            "title": "Future usage of RL",
+            "content": "I suspect that RL will become increasingly influential in various industrial sectors over the coming years, particularly in areas such as energy, industrial processes, and manufacturing."
+          },
+          {
+            "content": "In the energy sector, RL can optimize the management of smart grids and renewable energy sources. By learning from real-time data, RL algorithms can enhance energy efficiency, reduce costs, and ensure reliable energy distribution. For instance, RL can dynamically adjust the supply-demand balance in smart grids, optimize the operation of wind and solar power plants, and improve energy storage systems. RL's ability to adapt to real-time changes and optimize decisions in complex environments makes it particularly useful in the energy sector, where conditions and demand can fluctuate rapidly."
+          },
+          {
+            "content": "RL has the potential to transform industrial processes, including carbon capture and utilization. RL algorithms can optimize the parameters of carbon capture systems to maximize efficiency and minimize costs. By learning from operational data, RL can enhance the performance of carbon capture technologies, making them more effective in reducing greenhouse gas emissions. RL's adaptive learning capabilities allow it to handle the complexities and variabilities inherent in distributed industrial processes, leading to more efficient and sustainable operations."
+          },
+          {
+            "content": "In manufacturing, RL can be applied across various stages of the production line, from assembly to maintenance. RL algorithms can help robots learn new tasks, optimize workflows, and ensure precision in repetitive tasks. Predictive maintenance powered by RL can foresee equipment malfunctions, schedule timely interventions, and prevent costly breakdowns. This not only enhances efficiency but also extends the lifespan of machinery. The trial-and-error approach of RL enables continuous improvement and adaptation to changing conditions, making it invaluable in dynamic manufacturing environments."
+          },
+          {
+            "title": "Conclusion",
+            "content": "Reinforcement Learning is a powerful machine learning framework that learns and improves over time by interacting with the environment. It has huge potential to solve complex problems and adapt to dynamic situations. Stay tuned for future blog posts where we will delve deeper into the fascinating world of RL!"
+          }
+        ]
+      },
+      {
+        "title": "En introduksjon til Reinforcement Learning: Hva er det, og hva kan det brukes til?",
+        "img": "/assets/images/rl-intro-blog-post.webp",
+        "published": "5. mai 2024",
+        "sections": [
+          {
+            "content": "Er du nysgjerrig på hvordan maskiner kan lære av erfaring og forbedre seg over tid? Hos Digel tror vi at Reinforcement Learning (RL) kan være et godt rammeverket for å optimalisere industrielle prosesser. I dette blogginnlegget vil jeg gi deg en enkel introduksjon til RL, hvordan det fungerer, hva som skiller det fra andre maskinlæringsmetoder, og noen bruksområder."
+          },
+          {
+            "title": "De tre klassene av maskinlæring",
+            "content": "Innenfor maskinlæringsverdenen (ML) kategoriserer vi vanligvis læringsmetoder i tre klasser: 'Supervised Learning', 'Unsupervised Learning', og RL."
+          },
+          {
+            "content": "I 'Supervised Learning' (veiledet læring) brukes et datasett som kartlegger innganger til riktige utganger for å trene AI-agenten. Veiledet læring brukes ofte til bildeklassifisering, f.eks. klassifisering av dyr i bilder. Datasettet som brukes til å trene dyreklassifiseringsagenten vil typisk bestå av bilder av et bredt spekter av arter, hver enkelt merket med artsnavnet. Dette er grunnen til at vi kaller det veiledet læring, siden læringsprosessen styres av en 'veileder' som gir riktige svar for hvert eksempel i treningsdataene. AI-agenten lærer å assosiere inngangsbilder med de riktige navnene, og forbedrer sin nøyaktighet over tid."
+          },
+          {
+            "content": "På den andre siden er 'Unsupervised Learning' (uovervåket læring) et sett metoder som prøver å identifisere mønstre og relasjoner i dataene. En typisk 'unsupervised' læringstilnærming er klyngingsanalyse, dvs. å gruppere lignende datapunkter sammen. Hvis vi fortsetter med vårt eksempeldatasett bestående av dyrearter, kan vi omformulere klassifiseringsproblemet til et uovervåket læringsproblem hvor vi finner likheter mellom arter fra bildene uten forhåndskunnskap om dyrenavnene."
+          },
+          {
+            "content": "Med RL lærer AI-agenten ved å samhandle med miljøet sitt. Agenten mottar tilbakemelding fra miljøet i form av belønninger eller straffer basert på sine handlinger. Gjennom prøving og feiling prøver agenten å maksimere sine belønninger over tid (og minimere straffer) for å finne den optimale handlingen den bør ta i en gitt tilstand. Hvis vi fortsetter med våre dyretematiske eksempler, kan vi prøve å trene en RL-agent til å overleve i naturen. Agenten vil motta en belønning for hvert møte med et dyr hvor agenten overlever, og vil motta en straff for møter med rovdyr som spiser agenten. Ved å simulere nok møter med forskjellige arter, vil agenten lære å unngå et sett med arter.",
+            "img": {
+              "src": "/assets/images/rl-intro-architecture-blog-post.jpg",
+              "caption": "De grunnleggende komponentene i alle 'reinforcement learning'-arkitekturer består av en agent som samhandler med et miljø."
+            }
+          },
+          {
+            "title": "RL vs. kontrollteori",
+            "content": "Som eksemplifisert i forrige avsnitt, trenes RL-agenter til å ta sekvenser av handlinger som maksimerer en slags kumulativ belønning. I RL-litteraturen refererer man ofte til beslutningsfunksjonen som agentens 'policy'. Målet er å optimalisere 'policyen' på en slik måte at den maksimerer agentens belønning når den samhandler med miljøet. Med andre ord kan problemene som løses av RL også formuleres som kontrollproblemer. 'Policyen' som kontinuerlig oppdateres for hver simuleringssyklus kan betraktes som kontrolloven som brukes for å ta optimaliserte handlinger i miljøet. Hovedforskjellen mellom tradisjonell kontrollteori og RL er at RL innebærer adaptiv læring fra interaksjoner, mens kontrollteori vanligvis innebærer forhåndsdesignede kontrollere basert på systemmodeller. RL utmerker seg i komplekse, usikre, dynamiske miljøer hvor læring fra erfaring er avgjørende."
+          },
+          {
+            "title": "Hvor brukes RL i dag?",
+            "content": "RL brukes for eksempel for å forbedre forslagssystemer innenfor netthandel. Ved å analysere brukeradferd og tilbakemeldinger kan RL-algoritmer lære å foreslå produkter som er mer sannsynlige å interessere brukeren, og dermed forbedre brukeropplevelsen og øke salget. For eksempel kan et RL-basert anbefalingssystem foreslå nye produkter basert på tidligere kjøp og nettleserhistorikk, og kontinuerlig forbedre sine forslag etter hvert som det lærer mer om brukerens preferanser."
+          },
+          {
+            "content": "I spillindustrien har RL ført til betydelige fremskritt, spesielt i utviklingen av sofistikert spill-AI. AlphaGO, utviklet av DeepMind, er et godt eksempel hvor RL gjorde det mulig for AI å mestre det brettspillet Go, og til og med beseire verdensmestere. På samme måte har RL-teknikker blitt brukt på Atari-spill, slik at AI-agenter kan lære og mestre disse spillene gjennom prøving og feiling, og utklasser ofte de beste menneskelige spillerne.",
+            "img": {
+              "src": "/assets/images/rl-intro-go-blog-post.jpg",
+              "caption": "AlphaGo av Deepmind brukte RL-metoder for å slå den tidligere verdensmesteren i Go, Lee Sedol."
+            }
+          },
+          {
+            "content": "RL-tilnærminger er også trendy innen robotikk og utvikling av autonome kjøretøy. I robotikk brukes RL for å lære roboter å utføre komplekse oppgaver som manipulering av objekter, navigasjon og menneske-robot-interaksjon. For autonome kjøretøy hjelper RL i beslutningsprosesser, slik at kjøretøyet kan navigere gjennom dynamiske miljøer, unngå hindringer og optimalisere ruter basert på sanntidsdata."
+          },
+          {
+            "content": "Generative AI-modeller, som de som brukes til å skape kunst, musikk eller tekst, drar nytte av RL ved å inkludere menneskelig tilbakemelding for å finjustere sine utganger. RL gjør det mulig for disse modellene å justere sine generasjonsstrategier basert på belønninger eller straffer mottatt fra menneskelige interaksjoner. Denne tilnærmingen fører til mer nyanserte og høyere kvalitet utganger som bedre samsvarer med menneskelige preferanser og kreativitet."
+          },
+          {
+            "title": "Fremtidig bruk av RL",
+            "content": "Jeg spår at RL vil bli stadig mer innflytelsesrik i ulike industrielle sektorer i løpet av de kommende årene, spesielt innen områder som energi, industrielle prosesser og produksjon."
+          },
+          {
+            "content": "I energisektoren kan RL optimalisere styringen av smarte nett og fornybare energikilder. Ved å lære av sanntidsdata kan RL-algoritmer forbedre energieffektiviteten, redusere kostnader og sikre pålitelig energidistribusjon. For eksempel kan RL dynamisk justere balansen mellom tilbud og etterspørsel i smarte nett, optimalisere driften av vind- og solkraftverk, og forbedre energilagringssystemer. RL's evne til å tilpasse seg sanntidsendringer og optimalisere beslutninger i komplekse miljøer gjør det spesielt nyttig i energisektoren, hvor forhold og etterspørsel kan svinge raskt."
+          },
+          {
+            "content": "RL har potensial til å transformere styring av industrielle prosesser, for eksempel karbonfangst. RL-algoritmer kan optimalisere parameterne til karbonfangstsystemer for å maksimere CO2-fangst og minimere kostnader. Ved å lære av operasjonelle data kan RL forbedre ytelsen til karbonfangstteknologier, gjøre dem mer effektive i å redusere klimagassutslipp. RLs adaptive læringsevner gjør det i stand til å håndtere dynamikken i distribuerte industrielle prosesser, noe som fører til mer effektive og bærekraftige operasjoner."
+          },
+          {
+            "content": "I produksjon kan RL brukes på tvers av ulike stadier av produksjonslinjen, fra montering til vedlikehold. RL-algoritmer kan hjelpe roboter med å lære nye oppgaver, optimalisere arbeidsflyter og sikre presisjon i repeterende oppgaver. Prediktivt vedlikehold drevet av RL kan forutse utstyrsfeil, planlegge tidsriktige inngrep og forhindre kostbare sammenbrudd. Dette forbedrer ikke bare effektiviteten, men forlenger også levetiden til maskineriet. Prøving-og-feiling-tilnærmingen til RL muliggjør kontinuerlig forbedring og tilpasning til endrede forhold, noe som gjør det uvurderlig i dynamiske produksjonsmiljøer."
+          },
+          {
+            "title": "Konklusjon",
+            "content": "Reinforcement Learning er et krafig rammeverk innenfor maskinlæring som lærer og forbedrer seg over tid ved å samhandle med miljøet. Det har stort potensial til å løse komplekse problemer og tilpasse seg dynamiske situasjoner. Følg med på fremtidige blogginnlegg hvor vi vil dykke dypere inn i den fascinerende RL-verdenen!"
+          }
+        ]
       }
     ]
   },
