@@ -37,10 +37,13 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     return { notFound: true };
   }
 
-  return { props: { post } };
+  return { props: { id: params.id, post: post } };
 };
 
-const BlogPostPage: React.FC<{ post: BlogPost }> = ({ post }) => {
+const BlogPostPage: React.FC<{ id: number; post: BlogPost }> = ({
+  id,
+  post,
+}) => {
   if (!post) {
     return <p>Post not found!</p>;
   }
@@ -49,10 +52,20 @@ const BlogPostPage: React.FC<{ post: BlogPost }> = ({ post }) => {
     <article className="bg-backgroundMedium text-primary min-h-screen">
       <Head>
         <title>{post.title}</title>
+        <meta property="og:title" content={post.title} />
         <meta
-          name="description"
+          property="og:description"
           content={`${post.sections.map((section) => section.content)}`}
         />
+        <meta property="og:image" content={`https://digel.io${post.img}`} />
+        <meta property="og:url" content={`https://digel.io/blog/${id}`} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:title" content={post.title} />
+        <meta
+          name="twitter:description"
+          content={`${post.sections.map((section) => section.content)}`}
+        />
+        <meta name="twitter:image" content={`https://digel.io${post.img}`} />
       </Head>
       <div className="relative w-full" style={{ height: "80vh" }}>
         <img
