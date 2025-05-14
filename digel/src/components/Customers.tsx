@@ -14,13 +14,13 @@ const Customers = () => {
           {customers.items.map((item, index) => (
             <a
               key={index}
-              className="h-32 flex items-center justify-center"
+              className="h-32 w-48 flex items-center justify-center mx-4 my-4"
               href={item.href}
             >
               <img
                 src={item.img}
                 alt={item.name}
-                className="filter brightness-0 invert max-h-full w-auto object-cover"
+                className="h-24 w-auto object-contain"
               />
             </a>
           ))}
