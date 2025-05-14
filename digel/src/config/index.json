@@ -83,9 +83,14 @@
         "href": "https://www.akersolutions.com/"
       },
       {
-        "name": "NES Advantage Solutions",
-        "img": "/assets/images/NES.png",
-        "href": "https://www.nesfircroft.com/managed-solutions"
+        "name": "Hoff",
+        "img": "/assets/images/hoff.png",
+        "href": "https://www.hoff.no/"
+      },
+      {
+        "name": "Capsol Technologies",
+        "img": "/assets/images/capsol.png",
+        "href": "https://www.capsoltechnologies.com/"
       }
     ]
   },
@@ -112,6 +117,13 @@
         "img": "/assets/images/axel-2.png",
         "description": "M.Sc. Cybernetics & Robotics, Norwegian University of Science and Technology",
         "keywords": ["Fullstack", "Modeling", "Optimization"]
+      },
+      {
+        "name": "Vegard Sanden",
+        "role": "",
+        "img": "/assets/images/vegard.png",
+        "description": "M.Sc. Cybernetics & Robotics, Norwegian University of Science and Technology",
+        "keywords": ["Fullstack", "Modeling", "Cloud"]
       },
       {
         "name": "Erlend Blomseth",
