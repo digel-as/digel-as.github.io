@@ -91,6 +91,11 @@
         "name": "Capsol Technologies",
         "img": "/assets/images/capsol.png",
         "href": "https://www.capsoltechnologies.com/"
+      },
+      {
+        "name": "RunwayFBU",
+        "img": "/assets/images/runwayFBU.svg",
+        "href": "https://runwayfbu.com/"
       }
     ]
   },
@@ -339,7 +344,7 @@
     ],
     "socialMedia": {
       "github": "https://github.com/digel-as",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": "https://www.linkedin.com/company/102369767"
     }
   }
 }
