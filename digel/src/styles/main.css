@@ -23,3 +23,24 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+/* Gradient overlays only */
+.bg-gradient-dark {
+  background-color: #020A1D;
+  background-image:
+    linear-gradient(135deg, rgba(2,10,29,1) 0%, rgba(66,122,242,0.22) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+  opacity: 1;
+}
+
+.bg-gradient-medium {
+  background-color: #071431;
+  background-image:
+    linear-gradient(135deg, rgba(7,20,49,1) 0%, rgba(66,122,242,0.28) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+  opacity: 1;
+}

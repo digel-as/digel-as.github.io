@@ -9,21 +9,21 @@ import Blog from "../components/Blog";
 
 const App = () => {
   return (
-    <div className={`bg-backgroundDark grid overflow-hidden`}>
+    <div className={`bg-backgroundDark bg-gradient-dark grid overflow-hidden`}>
       <Title />
-      <div className="py-8 bg-backgroundMedium">
+      <div className="py-8 bg-backgroundMedium bg-gradient-medium">
         <Introduction />
       </div>
-      <div className="py-8 bg-backgroundDark">
+      <div className="py-8 bg-backgroundDark bg-gradient-dark">
         <Employees />
       </div>
-      <div className="py-8 bg-backgroundMedium">
+      <div className="py-8 bg-backgroundMedium bg-gradient-medium">
         <Blog />
       </div>
-      <div className="py-8 bg-backgroundDark">
+      <div className="py-8 bg-backgroundDark bg-gradient-dark">
         <Customers />
       </div>
-      <div className="py-8 bg-backgroundMedium">
+      <div className="py-8 bg-backgroundMedium bg-gradient-medium">
         <About />
       </div>
     </div>

@@ -6,7 +6,7 @@ import LazyShow from "./LazyShow";
 const Title = () => {
   const { title } = config;
   return (
-    <main className="flex items-center justify-center h-screen bg-backgroundDark">
+    <main className="flex items-center justify-center h-screen bg-backgroundDark bg-gradient-dark">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
