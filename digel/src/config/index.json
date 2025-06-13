@@ -150,13 +150,64 @@
     "title": "Latest News",
     "posts": [
       {
+        "title": "Helping Hoff SA Reduce Waste and Optimize Potato Processing",
+        "img": "/assets/images/erlend-pa-hoff.jpg",
+        "author": {
+          "name": "Christoffer Lange",
+          "src": "/assets/images/christoffer-2.png"
+        },
+        "published": "Jun 13, 2025",
+        "sections": [
+          {
+            "content": "Hoff SA is Norway’s largest potato processor, handling vast volumes of raw material from farms across the country. With multiple production lines running in parallel, visibility and control are essential to reducing waste and ensuring consistent quality."
+          },
+          {
+            "content": "Together with Hoff, Digel has developed digital tools that provide real-time insight and help turn production data into better decisions."
+          },
+          {
+            "title": "The Challenge: Seeing the Full Picture",
+            "content": "In modern food production, small variations can have large consequences. Raw material quality, operator experience, and machine settings all affect the final product. Hoff needed a way to understand how these variables interact."
+          },
+          {
+            "content": "Much of the knowledge in production today lives in the heads of experienced operators. Adjustments are made based on intuition rather than data, leading to inconsistencies in resource use and product quality. Our goal is to enable decisions based on shared, trusted data."
+          },
+          {
+            "title": "The Solution: From Data to Insight",
+            "content": "Digel helped Hoff collect and visualize data across systems and production stages. This includes:"
+          },
+          {
+            "content": "• Real-time silo overviews with volume, raw material quality and origin"
+          },
+          {
+            "content": "• Traceability across intake, production lines, and quality checks"
+          },
+          {
+            "content": "• Dashboards comparing shifts and lines, giving production leads clear insight"
+          },
+          {
+            "img": {
+              "src": "/assets/images/espen-med-pomfri.jpg",
+              "caption": "“We now base our discussions on facts, not just gut feeling. That makes a real difference in day-to-day decisions.” - Espen Slåtten, Technical Director at Hoff"
+            }
+          },
+          {
+            "title": "A Common Industry Problem",
+            "content": "Many potato processors face the same challenges: variation in raw material, manual control, and limited visibility. Our work with Hoff shows how better use of existing data can improve both performance and predictability."
+          },
+          {
+            "title": "What’s Next: Experience-Based Process Control",
+            "content": "With the right data in place, the next step is to set process parameters based on full context; raw material, historical outcomes, environment and operations. This will allow for smarter adjustments and more consistent results over time."
+          }
+        ]
+      },
+      {
         "title": "Streamlining Engineering at Aker Solutions",
         "img": "/assets/images/chris-axel.jpg",
         "author": {
           "name": "Christoffer Lange",
           "src": "/assets/images/christoffer-2.png"
         },
-        "published": "4 min read - Apr 3, 2024",
+        "published": "Apr 3, 2024",
         "sections": [
           {
             "content": "Digel is working with Aker Solutions to advance engineering processes, particularly in the design of stair towers for offshore installations."
@@ -185,12 +236,8 @@
           "name": "Thomas Andersen",
           "src": "/assets/images/thomas-2.png"
         },
-        "relevantPost": {
-          "name": "Norsk versjon",
-          "url": "/blog/2"
-        },
         "img": "/assets/images/rl-intro-blog-post.webp",
-        "published": "12 min read - May 5, 2024",
+        "published": "May 5, 2024",
         "sections": [
           {
             "content": "Are you curious about how machines can learn by experience and improve over time? At Digel, we believe that Reinforcement Learning (RL) can be the key framework for optimizing industrial processes. In this blog post, I will give you a simple introduction to RL, how it works, what separates it from other machine learning methods, and some use cases."
@@ -249,79 +296,6 @@
           {
             "title": "Conclusion",
             "content": "Reinforcement Learning is a powerful machine learning framework that learns and improves over time by interacting with the environment. It has huge potential to solve complex problems and adapt to dynamic situations. Stay tuned for future blog posts where we will delve deeper into the fascinating world of RL!"
-          }
-        ]
-      },
-      {
-        "title": "En introduksjon til Reinforcement Learning: Hva er det, og hva kan det brukes til?",
-        "author": {
-          "name": "Thomas Andersen",
-          "src": "/assets/images/thomas-2.png"
-        },
-        "relevantPost": {
-          "name": "English version",
-          "url": "/blog/1"
-        },
-        "img": "/assets/images/rl-intro-blog-post.webp",
-        "published": "12 min lesing - 5. mai 2024",
-        "sections": [
-          {
-            "content": "Er du nysgjerrig på hvordan maskiner kan lære av erfaring og forbedre seg over tid? Hos Digel tror vi at Reinforcement Learning (RL) kan være et godt rammeverket for å optimalisere industrielle prosesser. I dette blogginnlegget vil jeg gi deg en enkel introduksjon til RL, hvordan det fungerer, hva som skiller det fra andre maskinlæringsmetoder, og noen bruksområder."
-          },
-          {
-            "title": "De tre hovedtypene maskinlæring",
-            "content": "Innenfor maskinlæringsverdenen (ML) kategoriserer vi vanligvis læringsmetoder i tre klasser: 'Supervised Learning', 'Unsupervised Learning', og RL."
-          },
-          {
-            "content": "I 'Supervised Learning' (veiledet læring) brukes et datasett som kartlegger innganger til riktige utganger for å trene AI-agenten. Veiledet læring brukes ofte til bildeklassifisering, f.eks. klassifisering av dyr i bilder. Datasettet som brukes til å trene dyreklassifiseringsagenten vil typisk bestå av bilder av et bredt spekter av arter, hver enkelt merket med artsnavnet. Dette er grunnen til at vi kaller det veiledet læring, siden læringsprosessen styres av en 'veileder' som gir riktige svar for hvert eksempel i treningsdataene. AI-agenten lærer å assosiere inngangsbilder med de riktige navnene, og forbedrer sin nøyaktighet over tid."
-          },
-          {
-            "content": "På den andre siden er 'Unsupervised Learning' (uovervåket læring) et sett metoder som prøver å identifisere mønstre og relasjoner i dataene. En typisk 'unsupervised' læringstilnærming er klyngingsanalyse, dvs. å gruppere lignende datapunkter sammen. Hvis vi fortsetter med vårt eksempeldatasett bestående av dyrearter, kan vi omformulere klassifiseringsproblemet til et uovervåket læringsproblem hvor vi finner likheter mellom arter fra bildene uten forhåndskunnskap om dyrenavnene."
-          },
-          {
-            "content": "Med RL lærer AI-agenten ved å samhandle med miljøet sitt. Agenten mottar tilbakemelding fra miljøet i form av belønninger eller straffer basert på sine handlinger. Gjennom prøving og feiling prøver agenten å maksimere sine belønninger over tid (og minimere straffer) for å finne den optimale handlingen den bør ta i en gitt tilstand. Hvis vi fortsetter med våre dyretematiske eksempler, kan vi prøve å trene en RL-agent til å overleve i naturen. Agenten vil motta en belønning for hvert møte med et dyr hvor agenten overlever, og vil motta en straff for møter med rovdyr som spiser agenten. Ved å simulere nok møter med forskjellige arter, vil agenten lære å unngå et sett med arter.",
-            "img": {
-              "src": "/assets/images/rl-intro-architecture-blog-post.jpg",
-              "caption": "De grunnleggende komponentene i alle 'reinforcement learning'-arkitekturer består av en agent som samhandler med et miljø."
-            }
-          },
-          {
-            "title": "RL vs. kontrollteori",
-            "content": "Som eksemplifisert i forrige avsnitt, trenes RL-agenter til å ta sekvenser av handlinger som maksimerer en slags kumulativ belønning. I RL-litteraturen refererer man ofte til beslutningsfunksjonen som agentens 'policy'. Målet er å optimalisere 'policyen' på en slik måte at den maksimerer agentens belønning når den samhandler med miljøet. Med andre ord kan problemene som løses av RL også formuleres som kontrollproblemer. 'Policyen' som kontinuerlig oppdateres for hver simuleringssyklus kan betraktes som kontrolloven som brukes for å ta optimaliserte handlinger i miljøet. Hovedforskjellen mellom tradisjonell kontrollteori og RL er at RL innebærer adaptiv læring fra interaksjoner, mens kontrollteori vanligvis innebærer forhåndsdesignede kontrollere basert på systemmodeller. RL utmerker seg i komplekse, usikre, dynamiske miljøer hvor læring fra erfaring er avgjørende."
-          },
-          {
-            "title": "Hvor brukes RL i dag?",
-            "content": "RL brukes for eksempel for å forbedre forslagssystemer innenfor netthandel. Ved å analysere brukeradferd og tilbakemeldinger kan RL-algoritmer lære å foreslå produkter som er mer sannsynlige å interessere brukeren, og dermed forbedre brukeropplevelsen og øke salget. For eksempel kan et RL-basert anbefalingssystem foreslå nye produkter basert på tidligere kjøp og nettleserhistorikk, og kontinuerlig forbedre sine forslag etter hvert som det lærer mer om brukerens preferanser."
-          },
-          {
-            "content": "I spillindustrien har RL ført til betydelige fremskritt, spesielt i utviklingen av sofistikert spill-AI. AlphaGO, utviklet av DeepMind, er et godt eksempel hvor RL gjorde det mulig for AI å mestre det brettspillet Go, og til og med beseire verdensmestere. På samme måte har RL-teknikker blitt brukt på Atari-spill, slik at AI-agenter kan lære og mestre disse spillene gjennom prøving og feiling, og utklasser ofte de beste menneskelige spillerne.",
-            "img": {
-              "src": "/assets/images/rl-intro-go-blog-post.jpg",
-              "caption": "AlphaGo av Deepmind brukte RL-metoder for å slå den tidligere verdensmesteren i Go, Lee Sedol."
-            }
-          },
-          {
-            "content": "RL-tilnærminger er også trendy innen robotikk og utvikling av autonome kjøretøy. I robotikk brukes RL for å lære roboter å utføre komplekse oppgaver som manipulering av objekter, navigasjon og menneske-robot-interaksjon. For autonome kjøretøy hjelper RL i beslutningsprosesser, slik at kjøretøyet kan navigere gjennom dynamiske miljøer, unngå hindringer og optimalisere ruter basert på sanntidsdata."
-          },
-          {
-            "content": "Generative AI-modeller, som de som brukes til å skape kunst, musikk eller tekst, drar nytte av RL ved å inkludere menneskelig tilbakemelding for å finjustere sine utganger. RL gjør det mulig for disse modellene å justere sine generasjonsstrategier basert på belønninger eller straffer mottatt fra menneskelige interaksjoner. Denne tilnærmingen fører til mer nyanserte og høyere kvalitet utganger som bedre samsvarer med menneskelige preferanser og kreativitet."
-          },
-          {
-            "title": "Fremtidig bruk av RL",
-            "content": "Jeg spår at RL vil bli stadig mer innflytelsesrik i ulike industrielle sektorer i løpet av de kommende årene, spesielt innen områder som energi, industrielle prosesser og produksjon."
-          },
-          {
-            "content": "I energisektoren kan RL optimalisere styringen av smarte nett og fornybare energikilder. Ved å lære av sanntidsdata kan RL-algoritmer forbedre energieffektiviteten, redusere kostnader og sikre pålitelig energidistribusjon. For eksempel kan RL dynamisk justere balansen mellom tilbud og etterspørsel i smarte nett, optimalisere driften av vind- og solkraftverk, og forbedre energilagringssystemer. RL's evne til å tilpasse seg sanntidsendringer og optimalisere beslutninger i komplekse miljøer gjør det spesielt nyttig i energisektoren, hvor forhold og etterspørsel kan svinge raskt."
-          },
-          {
-            "content": "RL har potensial til å transformere styring av industrielle prosesser, for eksempel karbonfangst. RL-algoritmer kan optimalisere parameterne til karbonfangstsystemer for å maksimere CO2-fangst og minimere kostnader. Ved å lære av operasjonelle data kan RL forbedre ytelsen til karbonfangstteknologier, gjøre dem mer effektive i å redusere klimagassutslipp. RLs adaptive læringsevner gjør det i stand til å håndtere dynamikken i distribuerte industrielle prosesser, noe som fører til mer effektive og bærekraftige operasjoner."
-          },
-          {
-            "content": "I produksjon kan RL brukes på tvers av ulike stadier av produksjonslinjen, fra montering til vedlikehold. RL-algoritmer kan hjelpe roboter med å lære nye oppgaver, optimalisere arbeidsflyter og sikre presisjon i repeterende oppgaver. Prediktivt vedlikehold drevet av RL kan forutse utstyrsfeil, planlegge tidsriktige inngrep og forhindre kostbare sammenbrudd. Dette forbedrer ikke bare effektiviteten, men forlenger også levetiden til maskineriet. Prøving-og-feiling-tilnærmingen til RL muliggjør kontinuerlig forbedring og tilpasning til endrede forhold, noe som gjør det uvurderlig i dynamiske produksjonsmiljøer."
-          },
-          {
-            "title": "Konklusjon",
-            "content": "Reinforcement Learning er et krafig rammeverk innenfor maskinlæring som lærer og forbedrer seg over tid ved å samhandle med miljøet. Det har stort potensial til å løse komplekse problemer og tilpasse seg dynamiske situasjoner. Følg med på fremtidige blogginnlegg hvor vi vil dykke dypere inn i den fascinerende RL-verdenen!"
           }
         ]
       }

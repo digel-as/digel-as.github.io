@@ -43,7 +43,7 @@ const Blog: React.FC = () => {
                 <img
                   src={post.img}
                   alt={post.title}
-                  style={{ objectFit: "cover", borderRadius: 10 }}
+                  style={{ objectFit: "cover", borderRadius: 10, width: 500, height: 300 }}
                 />
               </div>
               <h2 className="text-2xl font-bold">{post.title}</h2>
