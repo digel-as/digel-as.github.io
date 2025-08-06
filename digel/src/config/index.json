@@ -131,6 +131,13 @@
         "keywords": ["Fullstack", "Modeling", "Cloud"]
       },
       {
+        "name": "Lars Bergh Hvidsten",
+        "role": "Product Manager",
+        "img": "/assets/images/lars.png",
+        "description": "M.Sc. Systems Engineering, University of South-Eastern Norway",
+        "keywords": ["AI", "Architect", "Product management"]
+      },
+      {
         "name": "Bjørn-Erik Dale | Chairman",
         "role": "",
         "img": "/assets/images/bjorn-erik.png",
