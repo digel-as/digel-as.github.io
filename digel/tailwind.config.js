@@ -16,6 +16,10 @@ module.exports = {
       "6xl": "4rem",
     },
     extend: {
+      fontFamily: {
+        sans: ['Urbanist', 'sans-serif'],
+        urbanist: ['Urbanist', 'sans-serif'],
+      },
       colors: {
         primary: "#FFFFF6",
         secondary: "#484F58",

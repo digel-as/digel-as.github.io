@@ -1,7 +1,7 @@
 {
   "company": {
     "name": "Digel",
-    "logo": "/assets/images/logo-light.png"
+    "logo": "/assets/images/digel-logo-long-inverted.svg"
   },
   "navigation": [
     {
@@ -30,8 +30,8 @@
     "href": "#"
   },
   "title": {
-    "slogan": "Delivering Industrial Digitalization with Cybernetics Expertise",
-    "img": "/assets/images/logo-light.png"
+    "slogan": "Industrial Digitalization with Cybernetics Expertise",
+    "img": "/assets/images/digel-logo-long-inverted.svg"
   },
   "introduction": {
     "title": "",
@@ -39,7 +39,7 @@
       {
         "title": "About Us",
         "content": [
-          "Our team includes engineers with strong backgrounds in cybernetics, robotics, and industrial IT. We have solid expertise in automation systems, covering both Operational Technology (OT) and Information Technology (IT) aspects. Whether it's developing embedded software, designing control systems, working on cloud solutions, or managing frontend development, we can handle it. We also excel in managing large amounts of timeseries data and applying machine learning and AI technologies."
+          "Our team includes engineers with strong backgrounds in engineering cybernetics and industrial IT. We have solid expertise in automation systems, covering both Operational Technology (OT) and Information Technology (IT) aspects. Whether it's developing embedded software, designing control systems, working on cloud solutions, or managing frontend development, we can handle it. We also excel in managing large amounts of timeseries data and applying machine learning and AI technologies."
         ],
         "img": ""
       },
