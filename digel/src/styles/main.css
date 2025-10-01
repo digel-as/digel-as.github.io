@@ -8,6 +8,10 @@
   --color-tertiaty: #dbcac4;
 }
 
+body {
+  font-family: 'Urbanist', sans-serif;
+}
+
 a {
   @apply text-white;
 }
